@@ -1,0 +1,591 @@
+[
+  {
+    "uuid": "3baa759b-9afc-41ef-b770-c60e1d9383d2",
+    "description": "Filter rule to skip and prevent redirection tracking on multiple hosts.",
+    "tag": "filter-multiple-link",
+    "pattern": {
+      "scheme": "*",
+      "host": [
+        "*.tradedoubler.com",
+        "out.reddit.com",
+        "steamcommunity.com"
+      ],
+      "path": [
+        "*url=*"
+      ]
+    },
+    "types": [
+      "main_frame"
+    ],
+    "action": "filter",
+    "active": true,
+    "redirectUrl": ""
+  },
+  {
+    "name": "Stop Google search link tracking",
+    "uuid": "60f46cfa-b906-4a2d-ab66-8f26dc35e97f",
+    "description": "This filter rule prevents Google from obtaining the URL of clicked search link via URL redirection. The tracking request done in background is classified as a Sub Document type. This rule provides an example of using the top-level domains pattern.",
+    "tag": "filter-google-link",
+    "pattern": {
+      "scheme": "*",
+      "host": [
+        "*.google.*"
+      ],
+      "topLevelDomains": [
+        "com",
+        "ad",
+        "ae",
+        "com.af",
+        "com.ag",
+        "com.ai",
+        "al",
+        "am",
+        "co.ao",
+        "com.ar",
+        "as",
+        "at",
+        "com.au",
+        "az",
+        "ba",
+        "com.bd",
+        "be",
+        "bf",
+        "bg",
+        "com.bh",
+        "bi",
+        "bj",
+        "com.bn",
+        "com.bo",
+        "com.br",
+        "bs",
+        "bt",
+        "co.bw",
+        "by",
+        "com.bz",
+        "ca",
+        "cd",
+        "cf",
+        "cg",
+        "ch",
+        "ci",
+        "co.ck",
+        "cl",
+        "cm",
+        "cn",
+        "com.co",
+        "co.cr",
+        "com.cu",
+        "cv",
+        "com.cy",
+        "cz",
+        "de",
+        "dj",
+        "dk",
+        "dm",
+        "com.do",
+        "dz",
+        "com.ec",
+        "ee",
+        "com.eg",
+        "es",
+        "com.et",
+        "fi",
+        "com.fj",
+        "fm",
+        "fr",
+        "ga",
+        "ge",
+        "gg",
+        "com.gh",
+        "com.gi",
+        "gl",
+        "gm",
+        "gp",
+        "gr",
+        "com.gt",
+        "gy",
+        "com.hk",
+        "hn",
+        "hr",
+        "ht",
+        "hu",
+        "co.id",
+        "ie",
+        "co.il",
+        "im",
+        "co.in",
+        "iq",
+        "is",
+        "it",
+        "je",
+        "com.jm",
+        "jo",
+        "co.jp",
+        "co.ke",
+        "com.kh",
+        "ki",
+        "kg",
+        "co.kr",
+        "com.kw",
+        "kz",
+        "la",
+        "com.lb",
+        "li",
+        "lk",
+        "co.ls",
+        "lt",
+        "lu",
+        "lv",
+        "com.ly",
+        "co.ma",
+        "md",
+        "me",
+        "mg",
+        "mk",
+        "ml",
+        "com.mm",
+        "mn",
+        "ms",
+        "com.mt",
+        "mu",
+        "mv",
+        "mw",
+        "com.mx",
+        "com.my",
+        "co.mz",
+        "com.na",
+        "com.nf",
+        "com.ng",
+        "com.ni",
+        "ng",
+        "ne",
+        "nl",
+        "no",
+        "com.np",
+        "nr",
+        "nu",
+        "co.nz",
+        "com.om",
+        "com.pa",
+        "com.pe",
+        "com.pg",
+        "com.ph",
+        "com.pk",
+        "pl",
+        "pn",
+        "com.pr",
+        "ps",
+        "pt",
+        "com.py",
+        "com.qa",
+        "ro",
+        "ru",
+        "rw",
+        "com.sa",
+        "com.sb",
+        "sc",
+        "se",
+        "com.sg",
+        "sh",
+        "si",
+        "sk",
+        "com.sl",
+        "sn",
+        "so",
+        "sm",
+        "sr",
+        "st",
+        "com.sv",
+        "td",
+        "tg",
+        "co.th",
+        "com.tj",
+        "tk",
+        "tl",
+        "tm",
+        "tn",
+        "to",
+        "com.tr",
+        "tt",
+        "com.tw",
+        "co.tz",
+        "com.ua",
+        "co.ug",
+        "co.uk",
+        "com.uy",
+        "co.uz",
+        "com.vc",
+        "co.ve",
+        "vg",
+        "co.vi",
+        "com.vn",
+        "vu",
+        "ws",
+        "rs",
+        "co.za",
+        "co.zm",
+        "co.zw",
+        "cat"
+      ],
+      "path": [
+        "url?*"
+      ]
+    },
+    "types": [
+      "main_frame",
+      "sub_frame"
+    ],
+    "action": "filter",
+    "active": true,
+    "redirectDocument": true
+  },
+  {
+    "name": "Skip outgoing page confirmation on DeviantArt",
+    "uuid": "bc145190-0b68-4ff4-84d3-321e131cd253",
+    "tag": "filter-deviantArt-link",
+    "pattern": {
+      "scheme": "*",
+      "host": [
+        "*.deviantart.com"
+      ],
+      "path": [
+        "*outgoing?*"
+      ]
+    },
+    "types": [
+      "main_frame"
+    ],
+    "action": "filter",
+    "active": true
+  },
+  {
+    "name": "Filter rule for Mozilla's outgoing link redirection service",
+    "uuid": "3c4d6fa0-e2fb-4079-b3f0-e453ebe289ae",
+    "tag": "filter-mozilla-link",
+    "pattern": {
+      "scheme": "*",
+      "host": [
+        "outgoing.prod.mozaws.net"
+      ],
+      "path": [
+        "*"
+      ]
+    },
+    "types": [
+      "main_frame"
+    ],
+    "action": "filter",
+    "active": true
+  },
+  {
+    "name": "Block Beacon requests",
+    "uuid": "32db1f93-f99d-4c45-8485-e5c7beec5a69",
+    "pattern": {
+      "allUrls": true
+    },
+    "action": "block",
+    "active": true,
+    "types": [
+      "beacon"
+    ],
+    "tag": "block-beacon",
+    "description": "Block Beacon requests. The Beacon API is often used for logging user activity and sending analytics data to the server."
+  },
+  {
+    "uuid": "c2afa2ad-92ce-4bac-86e4-7e591d9554e4",
+    "pattern": {
+      "allUrls": true,
+      "excludes": [
+        "ReturnUrl",
+        "account",
+        "accounts",
+        "archive.org",
+        "auth",
+        "authuser",
+        "captcha",
+        "console.actions.google.com",
+        "corpredirect.intel.com",
+        "gitlab.com",
+        "global-identity",
+        "kingcounty.gov",
+        "login",
+        "myaccount",
+        "register_2fa",
+        "secure.newegg.com",
+        "sign-in",
+        "signin",
+        "ups.com"
+      ]
+    },
+    "types": [
+      "main_frame"
+    ],
+    "action": "filter",
+    "active": true,
+    "title": "Block%20General%20Tracking%20Parameters",
+    "paramsFilter": {
+      "values": [
+        "_ga",
+        "_hsenc",
+        "_hsmi",
+        "_openstat",
+        "action_object_map",
+        "action_ref_map",
+        "action_type_map",
+        "aff_platform",
+        "aff_trace_key",
+        "assetId",
+        "assetType",
+        "attribution_*",
+        "blzcmp",
+        "bru",
+        "campaignId",
+        "cid",
+        "cmpid",
+        "elqTrack",
+        "elqTrackId",
+        "ex_cid",
+        "fb_*",
+        "fbclid",
+        "ga_*",
+        "grp",
+        "hmb_*",
+        "itm_*",
+        "mkt_tok",
+        "recipientId",
+        "ref",
+        "sc_*",
+        "segment",
+        "siteId",
+        "smid",
+        "smtyp",
+        "terminal_id",
+        "track",
+        "utm_*",
+        "yclid"
+      ]
+    },
+    "description": "Blocks%20generic%20URL%20trackers.",
+    "tag": "filter-all-param"
+  },
+  {
+    "uuid": "9f25f644-204d-40d5-9546-2ad9a3a89323",
+    "pattern": {
+      "scheme": "*",
+      "host": [
+        "*.amazon.com"
+      ],
+      "path": [
+        "*"
+      ],
+      "topLevelDomains": [
+        "com"
+      ],
+      "excludes": [
+        "signin",
+        "sign-in"
+      ]
+    },
+    "types": [
+      "main_frame"
+    ],
+    "action": "filter",
+    "active": true,
+    "title": "Block%20Amazon%20Tracking%20Parameters",
+    "description": "Blocks%20URL%20trackers%20on%20*.amazon.com%20sites.",
+    "paramsFilter": {
+      "values": [
+        "*Version*",
+        "*entries*",
+        "_encoding",
+        "ascsubtag",
+        "creativeASIN",
+        "cv_ct_*",
+        "ie",
+        "keywords",
+        "linkCode",
+        "newts",
+        "pd_rd_*",
+        "pf_rd_*",
+        "psc",
+        "qid",
+        "ref_",
+        "s",
+        "sr",
+        "tag"
+      ]
+    },
+    "tag": "filter-amazon-param"
+  },
+  {
+    "uuid": "136cd8ac-2b18-49c0-830b-5d65ab15d573",
+    "pattern": {
+      "scheme": "*",
+      "host": [
+        "*.google.com"
+      ],
+      "path": [
+        "*"
+      ],
+      "excludes": [
+        "accounts",
+        "authuser",
+        "console.actions.google.com",
+        "myaccount"
+      ]
+    },
+    "types": [
+      "main_frame"
+    ],
+    "action": "filter",
+    "active": true,
+    "description": "Blocks%20URL%20trackers%20from%20*.google.com%20sites.",
+    "title": "Block%20Google%20Tracking%20Parameters",
+    "paramsFilter": {
+      "values": [
+        "ei",
+        "gws_rd",
+        "sei",
+        "ved"
+      ]
+    },
+    "tag": "filter-google-param"
+  },
+  {
+    "uuid": "b08a69f6-9f2f-4e92-bf0e-b5a432711f9a",
+    "pattern": {
+      "scheme": "*",
+      "host": [
+        "*.youtube.com"
+      ],
+      "path": [
+        "*"
+      ],
+      "excludes": [
+        "accounts"
+      ]
+    },
+    "types": [
+      "main_frame"
+    ],
+    "action": "filter",
+    "active": true,
+    "description": "Blocks%20trackers%20on%20youtube.com.",
+    "title": "Block%20Youtube%20Tracking%20Parameters",
+    "paramsFilter": {
+      "values": [
+        "feature",
+        "gclid",
+        "kw"
+      ]
+    },
+    "tag": "filter-youtube-param"
+  },
+  {
+    "uuid": "b20a734b-8a96-448e-9d81-aeda5bccac43",
+    "pattern": {
+      "scheme": "*",
+      "host": [
+        "*.nytimes.com"
+      ],
+      "path": [
+        "*"
+      ]
+    },
+    "types": [
+      "main_frame"
+    ],
+    "action": "filter",
+    "active": true,
+    "title": "Block%20NY%20Times%20Tracking%20Parameters",
+    "description": "Blocks%20tracking%20parameters%20on%20nytimes.com.",
+    "paramsFilter": {
+      "values": [
+        "action",
+        "module",
+        "pgtype"
+      ]
+    },
+    "tag": "filter-nyt-param"
+  },
+  {
+    "uuid": "674cf588-8dcc-4c6e-9c2e-657cb5e5fba8",
+    "pattern": {
+      "scheme": "*",
+      "host": [
+        "*.duckduckgo.com"
+      ],
+      "path": [
+        "*"
+      ]
+    },
+    "types": [
+      "main_frame"
+    ],
+    "action": "filter",
+    "active": true,
+    "title": "Block%20DuckDuckGo%20Tracking%20Parameters",
+    "paramsFilter": {
+      "values": [
+        "t"
+      ]
+    },
+    "tag": "filter-ddg-param",
+    "description": "Filter%20URL%20redirection%20and%20Trim%20URL%20parameters"
+  },
+  {
+    "uuid": "e76cf44f-b618-4ac8-9f2a-83c0e2b9ed76",
+    "pattern": {
+      "scheme": "*",
+      "host": [
+        "*.newegg.com"
+      ],
+      "path": [
+        "*"
+      ],
+      "excludes": [
+        "secure.newegg.com"
+      ]
+    },
+    "types": [
+      "main_frame"
+    ],
+    "action": "filter",
+    "active": true,
+    "title": "Block%20Newegg%20Tracking%20Parameters",
+    "description": "Blocks%20trackers%20on%20newegg.com",
+    "paramsFilter": {
+      "values": [
+        "RandomID",
+        "cm_re",
+        "cm_sp"
+      ]
+    },
+    "tag": "filter-newegg-param"
+  },
+  {
+    "uuid": "3c1c8751-57ba-4637-ac74-93f67fb68c21",
+    "pattern": {
+      "scheme": "*",
+      "host": [
+        "*.usps.com"
+      ],
+      "path": [
+        "*"
+      ]
+    },
+    "types": [
+      "main_frame"
+    ],
+    "action": "filter",
+    "active": true,
+    "paramsFilter": {
+      "values": [
+        "tLc",
+        "tRef"
+      ]
+    },
+    "title": "Block%20USPS%20Tracking%20Parameters",
+    "tag": "filter-usps-param"
+  }
+]

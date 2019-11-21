@@ -1,0 +1,238 @@
+! Title: Krathalan's Annoyances
+! Updated October 23, 2019
+! Homepage: https://git.sr.ht/~krathalan/firefox-complement
+! Direct link: 
+
+! Copyright (c) 2018-2019 krathalan
+! License: https://gnu.org/licenses/gpl-3.0.txt
+
+! Removes donation popover (they additionally have a donate button that this filter list does not remove)
+aclu.org###cboxOverlay
+aclu.org###colorbox
+
+! Remove promotional ad banner at the top of the page when viewing an item
+amazon.com###detail-ilm_div
+smile.amazon.com###detail-ilm_div
+
+! Remove ad spaces
+arstechnica.com###ad_crown_top
+arstechnica.com##div.column-wrapper:nth-of-type(1) > .xrail
+
+! Removes annoyance
+askubuntu.com##.js-dismissable-hero.s-hero__dark.s-hero
+
+! Removed giant popunder
+blog.google##.h-c-expansion-panels__list
+
+! Removes subscription advertisement and dynamic "recommended content"
+bloomberg.com###paywall-banner
+bloomberg.com##.open-zipr.zipr-recirc__under-navi--desktop.zipr-recirc
+bloomberg.com##.right-rail-v2.right-rail
+
+! Removes suggested content
+businessinsider.com##.summary-list
+businessinsider.com##.post-content-more
+businessinsider.com###l-rightrail
+
+! Removes stocks tickers
+businessinsider.com##.markets-insider-content
+markets.businessinsider.com##div.equalheights.row:nth-of-type(1)
+markets.businessinsider.com##.hidden-sm.hidden-xs.mobile-spacer-25.spacer-50
+markets.businessinsider.com##div.equalheights.row:nth-of-type(5) > .col-xs-12.col-md-4
+
+! Removes large email subscription banner on bottom of screen
+businessoffashion.com##.smart-slot__sticky.smart-slot__subscribe-to-business-of-beauty.smart-slot
+
+! Removes unnecessary video at the start of each article
+cbsnews.com###videoContainer
+
+! Removes other suggested articles at the top of articles
+cnn.com##.carousel-medium-strip.carousel--fixed.owl-carousel.js-owl-carousel
+
+! Removes alert about javascript required but site still works fine :/
+codeweavers.com###nojsalert
+
+! Removes large section at top of page 
+commondreams.org##.l-over-branding
+
+! Removes ads, popups, and large donation banner (they additionally have a donate button that this filter list does not remove)
+crosscut.com##.waypoints-reveal-entity
+crosscut.com##.featherlight
+||crosscut.com/sites/default/files/lilypad_newsmatch_1200x300.jpg$image
+crosscut.com##.ad.desktop.positioned.tower-ad-wrapper
+crosscut.com##.default-hero.container > .socialshare-wrapper
+
+! Removes incredibly resource-heavy map
+darksky.net###map-container
+
+! Removes donation popover and giant header
+||static.defectivebydesign.org/nosvn/banners/2018fundraiser/$subdocument
+defectivebydesign.org###fsf-modal-window-elem-container
+
+! Removes feedback and footer sections
+duckduckgo.com##.user-loc-cta
+duckduckgo.com##.js-about-module.js-module--wikipedia_fathead.module--zci-wikipedia_fathead.module--about.module > .feedback-prompt
+duckduckgo.com##.has-feedback-prompt.js-module--maps_places.module--places.module > .feedback-prompt
+duckduckgo.com##.has-ad.results--ads--rrail.results--ads.js-sidebar-ads
+duckduckgo.com##.footer
+
+! Remove giant (covers half the screen) donation popup
+foundation.mozilla.org##.show.donate-modal
+
+! Remove donation popover and giant header
+||static1p.fsf.org/nosvn/banners/2018fundraiser/$subdocument
+fsf.org###fsf-modal-window-elem-container
+
+! Removes visual clutter
+gamedaily.biz##.header-top
+gamedaily.biz###side-rail
+
+! Remove unnecessary elements for viewing a gif
+gfycat.com##.share-desktop-container > .block-3
+gfycat.com##.navigation__bottom-row
+
+! Remove Auto Dev Ops dismissable banner
+gitlab.com##.prepend-top-10.append-bottom-20.banner-non-empty-state.banner-callout.js-autodevops-banner
+
+! Removes popup
+gog.com##.ng-scope.big-welcome-offer__banner
+
+! Removes the header when viewing an image
+gyazo.com##.header-block
+
+! Removes the top banner and giant popover
+humblebundle.com###monthly-coupon-offer
+humblebundle.com###site-xpromo-banner
+
+! Removes premium ad popover
+icy-veins.com###premium_information
+
+! Removes trash when Javascript is disabled
+independent.co.uk##.align-.i-gallery.inline-media
+independent.co.uk###comments
+independent.co.uk###sidebar
+independent.co.uk###bookmark-lightbox
+independent.co.uk###newsletter-component
+independent.co.uk##.sidebar
+
+! Removes ads and suggested content
+leafly.com##.single-internal-gutter.boomapps_vccolumn.col-lg-4.column_parent.align_left.pos-center.pos-top
+leafly.com##.leafly-inline-related-story-standard
+leafly.com##div.leafly-inline-related-story
+
+! Removes popovers
+lmgtfy.com##.active.ng-scope.popover.sticker-popover
+
+! Removes subscribe popover
+lushusa.com##.ui-draggable.newsletter-signup-modal.ui-front.ui-corner-all.ui-widget-content.ui-widget.ui-dialog
+lushusa.com##.ui-front.ui-widget-overlay
+
+! Removes recent blue posts, recent news, and premium ads
+||media.mmo-champion.com/images/news/2017/november/p2.jpg$image
+||media.mmo-champion.com/images/news/2018/april/mmocP2.png$image
+mmo-champion.com###cdm-zone-05
+mmo-champion.com##.bar
+
+! Removes autoplaying floating video popunder and suggested content
+newsweek.com##.hidden-print.article-videoplayer
+newsweek.com###block-nw-content-recirc
+newsweek.com##.col-md-4.page-sidebar
+
+! Removes dark pattern
+newyorker.com###RecircCarousel
+
+! Removes some ads when reading an article
+nytimes.com###story-ad-1-wrapper
+nytimes.com###story-ad-2-wrapper
+nytimes.com###story-ad-3-wrapper
+
+! Removes ad
+pillarsofeternity.gamepedia.com##[href^="https://www.gamepedia.com/PRO"]
+
+! Removes popover ad
+playoverwatch.com##.is-open.Navbar-promotion.Navbar-toast
+
+! Removes ad section
+quora.com##.question_main_col > .unified.PagedListFoo.UnifiedAnswerPagedList
+
+! Removes several "Remove ads" notices and increases space efficiency
+raider.io##.slds-text-heading--medium.slds-p-around--large.cookieFooter-module__wrapper___3iC-G
+raider.io##.rio-right-pane > div > .slds-text-align--center > div > .slds-clearfix
+raider.io##.sticky-inner-wrapper > .slds-text-align--center > div > .slds-clearfix
+raider.io##.slds-align--absolute-center.slds-p-around--medium.rio-hidden--small.slds-text-align--center
+raider.io##.slds-p-bottom--x-large.rio-footer--bg > .slds-align--absolute-center.slds-p-around--medium.rio-hidden--small
+raider.io##.rio-right-pane
+
+! Removes the onboarding message for the new Reddit UI
+old.reddit.com##.onboardingbar-body
+reddit.com##.onboardingbar-body
+
+! Override AdGuard exception filters 
+||redditstatic.com/desktop2x/js/ads.js$domain=www.reddit.com,important
+||gateway.reddit.com/desktopapi/v1/sidebar_ads$domain=www.reddit.com,important
+
+! Removes obnoxious cookie notification
+redhat.com##.redhat-cookie-banner
+
+! Removes "trending stories"
+reuters.com##.RightRail_container
+
+! Remove ad panels
+speedof.me###left_adpane
+speedof.me##.right_adpane
+
+! Removes suggested content
+theguardian.com##.content-footer--pillar-news.content-footer
+theguardian.com##.js-secondary-column.content__secondary-column
+
+! Removes cluttered sidebar
+thesun.co.uk###sidebar
+
+! Removes redundant tab bar, related articles, and Youtube video at the end of the article
+theverge.com##.tab-bar-fixed.c-tab-bar
+theverge.com##.c-related-list
+
+! Removes large ad section
+tomsguide.com###responsive_ad
+
+! Removes large ad section
+tomshardware.com###responsive_ad
+
+! Removes ad section
+||tukui.org/images/nogoogle-message.png$image
+tukui.org##.nogoogle
+
+! Removes sign in popover
+twitter.com###signin-dropdown
+
+! Removes popunder
+wikitechy.com###single-sticky
+
+! Removes countdown timer and promotional popups
+worldofwarcraft.com##.CountdownTimer
+worldofwarcraft.com##.Navbar-promotionContainer.Navbar-toastContainer
+
+! Removes the left and right ad banners
+wow-petopia.com###adBannerRight
+wow-petopia.com###adBannerLeft
+
+! Removes recent blue posts, recent news, coupons, class guides, featured guides, many ZAM elements, and the "Today in WoW" section. Makes Wowhead Usable Again™
+||wow.zamimg.com/images/logos/fanbyte/fanbyte-horiz-196x44.png$image
+||wow.zamimg.com/images/logos/fanbyte/fanbyte-vert-320x212.png$image
+||wow.zamimg.com/widgets/zul/logos/zam-2x.png$image
+wowhead.com##.footer-sites
+wowhead.com##.footer-zam
+wowhead.com##.header-nav-class-guides
+wowhead.com##.header-nav-features
+wowhead.com##.main-news-heading.heading-size-4.imitation-heading
+wowhead.com##.news-recent-content
+wowhead.com##.premium-promo-row
+wowhead.com##.zul-bar-has-fa.zul-bar-icon-spacing.zul-bar-user-item-get-premium
+wowhead.com##.zul-bar-has-fa.zul-bar-icon-spacing.zul-bar-user-item-upgrade
+wowhead.com##.type-coupon-codes.featured-content-block
+wowhead.com##.db-page-collection-tracker-cta
+wowhead.com##.element-highlight
+wowhead.com###cookie-settings
+wowhead.com###zul-bar-logo
+wowhead.com##.news-current-guides
+
