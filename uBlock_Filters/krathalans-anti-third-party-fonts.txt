@@ -1,7 +1,7 @@
 ! Title: Krathalan's Anti-thirdparty Fonts
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://git.sr.ht/~krathalan/firefox-complement
-! Direct link: 
+! Direct link: https://git.sr.ht/~krathalan/firefox-complement/blob/master/uBlock_Filters/krathalans-anti-third-party-fonts.txt
 !
 ! Warning, will break the "look and design" of some sites.
 ! Fork of original Fanboy list (http://www.fanboy.co.nz/) that allows sites to serve their own fonts but still blocks a large amount of fonts from CDNs.

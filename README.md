@@ -10,14 +10,14 @@ Additional filter lists for [uBlock Origin](https://addons.mozilla.org/en-US/fir
 ### Annoyances
 The Annoyances list seeks to remove ads, clutter, popovers, and popunders. The list also seeks to remove dark patterns that interrupt content or keep you on a website, like "content carousels", "most popular articles", "suggested content", and "recommended stories".
 
-Krathalan's Annoyances list: https://gitlab.com/krathalan/firefox-tweaks/raw/master/uBlock_Filters/krathalans-annoyances.txt
+Krathalan's Annoyances list: https://git.sr.ht/~krathalan/firefox-complement/blob/master/uBlock_Filters/krathalans-annoyances.txt
 
 ### Third party fonts
 Fanboy's Anti-thirdparty Fonts list: https://fanboy.co.nz/fanboy-antifonts.txt
 
 The Fanboy list blocks some websites from loading fonts from their own domain, such as on gitlab.com for proper icons. I have created a fork of their anti-thirdparty fonts list that re-allows this functionality. This modified list will still block a majority of web fonts being loaded from CDNs.
 
-Krathalan's Anti-thirdparty Fonts list: https://gitlab.com/krathalan/firefox-tweaks/raw/master/uBlock_Filters/krathalans-anti-third-party-fonts.txt
+Krathalan's Anti-thirdparty Fonts list: https://git.sr.ht/~krathalan/firefox-complement/blob/master/uBlock_Filters/krathalans-anti-third-party-fonts.txt
 
 ### Other
 Many of these are simply good hosts lists meant to be used with Pihole or similar programs, but work well with uBlock Origin as well.
