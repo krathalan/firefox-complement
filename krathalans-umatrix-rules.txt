@@ -1,5 +1,5 @@
 ! Krathalan's uMatrix Rules
-! Updated November 13, 2019
+! Updated December 14, 2019
 ! Homepage: https://git.sr.ht/~krathalan/firefox-complement
 ! Direct link: https://git.sr.ht/~krathalan/firefox-complement/blob/master/krathalans-umatrix-rules.txt
 ! Copyright (c) 2018-2019 krathalan; License: https://gnu.org/licenses/gpl-3.0.txt
@@ -135,6 +135,7 @@ darksky.net * script inherit
 ddo.com * script inherit
 decentraleyes.org * script inherit
 decentraleyes.org ajax.googleapis.com script allow
+destinytracker.com * script inherit
 digitalocean.com * script inherit
 disroot.org * cookie inherit
 disroot.org * script inherit
@@ -178,6 +179,8 @@ gizmodo.com * script inherit
 gizmodo.com kinja-static.com script allow
 gog.com * cookie inherit
 gog.com * script inherit
+groupon.com * script inherit
+groupon.com grouponcdn.com script allow
 howtogeek.com * script inherit
 ibm.com * script inherit
 icy-veins.com * script inherit
@@ -201,6 +204,7 @@ indiegogo.com * cookie inherit
 indiegogo.com * script inherit
 indiegogo.com iggcdn.com script allow
 indiegogo.com ytimg.com * allow
+invidio.us googlevideo.com media allow
 irssi.org * script inherit
 jetbrains.com * cookie inherit
 jetbrains.com * script inherit
@@ -220,6 +224,8 @@ light.gg jsdelivr.net script allow
 lineageos.org * script inherit
 lineageos.org cloudflare.com script allow
 lineageos.org jquery.com script allow
+linode.com * cookie inherit
+linode.com * script inherit
 linuxconfig.org * script inherit
 linuxconfig.org cloudflare.com script allow
 lmgtfy.com * script inherit
@@ -303,6 +309,7 @@ reddit.com redd.it xhr allow
 reddit.com redditmedia.com frame allow
 reddit.com redditmedia.com media allow
 reddit.com redditstatic.com script allow
+repology.org * script inherit
 reuters.com * script inherit
 reuters.com reutersmedia.net script allow
 reuters.com thomsonreuters.com frame allow
