@@ -6,6 +6,9 @@
 ! Copyright (c) 2018-2019 krathalan
 ! License: https://gnu.org/licenses/gpl-3.0.txt
 
+! Remove content carousel
+abcnews.go.com###news-feed
+
 ! Removes donation popover (they additionally have a donate button that this filter list does not remove)
 aclu.org###cboxOverlay
 aclu.org###colorbox
@@ -94,6 +97,9 @@ gfycat.com##.navigation__bottom-row
 ! Remove Auto Dev Ops dismissable banner
 gitlab.com##.prepend-top-10.append-bottom-20.banner-non-empty-state.banner-callout.js-autodevops-banner
 
+! Remove content carousel
+gizmodo.com###sidebar_wrapper
+
 ! Removes popup
 gog.com##.ng-scope.big-welcome-offer__banner
 
@@ -174,8 +180,9 @@ reddit.com##.onboardingbar-body
 ! Removes obnoxious cookie notification
 redhat.com##.redhat-cookie-banner
 
-! Removes "trending stories"
+! Removes "trending stories" and "breaking news" popup 
 reuters.com##.RightRail_container
+reuters.com##.BreakingNews_developing.BreakingNews_bar
 
 ! Remove ad panels
 speedof.me###left_adpane
@@ -235,4 +242,5 @@ wowhead.com##.element-highlight
 wowhead.com###cookie-settings
 wowhead.com###zul-bar-logo
 wowhead.com##.news-current-guides
-
+wowhead.com##.news-content-spotlight
+wowhead.com##.footer-fanbyte
