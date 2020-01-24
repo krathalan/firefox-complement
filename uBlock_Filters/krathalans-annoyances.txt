@@ -244,3 +244,4 @@ wowhead.com###zul-bar-logo
 wowhead.com##.news-current-guides
 wowhead.com##.news-content-spotlight
 wowhead.com##.footer-fanbyte
+wowhead.com###main > .blocks
