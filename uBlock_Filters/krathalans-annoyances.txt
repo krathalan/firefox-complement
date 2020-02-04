@@ -111,6 +111,7 @@ humblebundle.com###monthly-coupon-offer
 humblebundle.com###site-xpromo-banner
 
 ! Removes premium ad popover
+icy-veins.com###icy_veins_plea
 icy-veins.com###premium_information
 
 ! Removes trash when Javascript is disabled

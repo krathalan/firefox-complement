@@ -1,8 +1,8 @@
 ! Krathalan's uMatrix Rules
-! Updated December 14, 2019
+! Updated February 3, 2019
 ! Homepage: https://git.sr.ht/~krathalan/firefox-complement
 ! Direct link: https://git.sr.ht/~krathalan/firefox-complement/blob/master/krathalans-umatrix-rules.txt
-! Copyright (c) 2018-2019 krathalan; License: https://gnu.org/licenses/gpl-3.0.txt
+! Copyright (c) 2018-2020 krathalan; License: https://gnu.org/licenses/gpl-3.0.txt
 https-strict: behind-the-scene false
 matrix-off: 127.0.0.1 true
 matrix-off: about-scheme true
@@ -87,6 +87,7 @@ barnesandnoble.com js-bn.com script allow
 battle.net * cookie inherit
 battle.net * script inherit
 battle.net akamaihd.net script allow
+battle.net akamaized.net script allow
 bbc.co.uk * script inherit
 bbc.co.uk bbci.co.uk script allow
 bbc.co.uk llnwd.net xhr allow
@@ -126,6 +127,7 @@ bungie.net * script inherit
 businessinsider.com * script inherit
 cbsnews.com cbsistatic.com script allow
 chocolatey.org * script inherit
+community.arduboy.com discourse-cdn.com script allow
 curseforge.com * cookie inherit
 curseforge.com * script inherit
 dailymotion.com * script inherit
@@ -179,6 +181,8 @@ gizmodo.com * script inherit
 gizmodo.com kinja-static.com script allow
 gog.com * cookie inherit
 gog.com * script inherit
+gpuboss.com * script inherit
+gpuboss.com ajax.googleapis.com script allow
 groupon.com * script inherit
 groupon.com grouponcdn.com script allow
 howtogeek.com * script inherit
@@ -212,6 +216,8 @@ kickstarter.com * cookie inherit
 kickstarter.com * script inherit
 kingcounty.gov ajax.googleapis.com script allow
 kingcounty.gov bootstrapcdn.com script allow
+komonews.com * script inherit
+komonews.com sinclairstoryline.com script allow
 kotaku.com * script inherit
 kotaku.com kinja-static.com script allow
 liberapay.com * cookie inherit
@@ -256,6 +262,7 @@ njal.la * script inherit
 nymag.com pixel.nymag.com * block
 opensuse.org * script inherit
 orcacard.com * cookie inherit
+orcacard.com * script inherit
 orcacard.com digicert.com script allow
 outline.com * script inherit
 outline.com outlineapi.com xhr allow
@@ -319,6 +326,7 @@ riot.im * script inherit
 riot.im matrix.org cookie allow
 riot.im matrix.org xhr allow
 search.privacytools.io * cookie inherit
+seattletimes.com * script inherit
 shields.io * script inherit
 shields.io gstatic.com * inherit
 signal.org * script inherit
@@ -339,6 +347,7 @@ steampowered.com * cookie inherit
 steampowered.com * script inherit
 steampowered.com akamaihd.net media allow
 steampowered.com akamaihd.net script allow
+streamable.com * script inherit
 swaywm.org * script inherit
 swaywm.org sr.ht media allow
 system76.com * script inherit
