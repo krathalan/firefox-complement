@@ -144,6 +144,7 @@ disroot.org * script inherit
 dnsleaktest.com * script inherit
 downforeveryoneorjustme.com * script inherit
 downforeveryoneorjustme.com downfor.cloud xhr allow
+drewdevault.com sr.ht media allow
 duckduckgo.com * cookie inherit
 duckduckgo.com * script inherit
 ebay.com * script inherit
@@ -163,6 +164,8 @@ forbes.com forbesimg.com script allow
 fosdem.org * media allow
 freewear.org * script inherit
 gamepedia.com * script inherit
+gamerdvr.com * script inherit
+gamerdvr.com xboxlive.com media allow
 gamesradar.com * script inherit
 gamesradar.com futurecdn.net script allow
 getfedora.org * script inherit
@@ -430,6 +433,7 @@ wowhead.com ytimg.com * allow
 wowhead.com zamimg.com * allow
 wowtokenprices.com * script inherit
 wowtokenprices.com ajax.googleapis.com script allow
+xboxclips.com xboxlive.com media allow
 xda-developers.com ajax.googleapis.com script allow
 xda-developers.com algolia.net xhr allow
 xda-developers.com cloudflare.com script allow
