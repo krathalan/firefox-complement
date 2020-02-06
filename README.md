@@ -8,7 +8,9 @@ Rulesets are included for [Request Control](https://addons.mozilla.org/en-US/fir
 Additional filter lists for [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) are recommended below.
 
 ### Annoyances
-The Annoyances list seeks to remove ads, clutter, popovers, and popunders. The list also seeks to remove dark patterns that interrupt content or keep you on a website, like "content carousels", "most popular articles", "suggested content", and "recommended stories".
+Web Annoyances Ultralist is a great filter list: https://raw.githubusercontent.com/yourduskquibbles/webannoyances/master/ultralist.txt
+
+My (krathalan's) Annoyances list seeks to remove ads, clutter, popovers, and popunders. The list also seeks to remove dark patterns that interrupt content or keep you on a website, like "content carousels", "most popular articles", "suggested content", and "recommended stories".
 
 Krathalan's Annoyances list: https://git.sr.ht/~krathalan/firefox-complement/blob/master/uBlock_Filters/krathalans-annoyances.txt
 
