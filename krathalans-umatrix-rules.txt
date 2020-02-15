@@ -1,5 +1,5 @@
 ! Krathalan's uMatrix Rules
-! Updated February 3, 2019
+! Updated February 14, 2020
 ! Homepage: https://git.sr.ht/~krathalan/firefox-complement
 ! Direct link: https://git.sr.ht/~krathalan/firefox-complement/blob/master/krathalans-umatrix-rules.txt
 ! Copyright (c) 2018-2020 krathalan; License: https://gnu.org/licenses/gpl-3.0.txt
@@ -75,6 +75,7 @@ androidfilehost.com ajax.googleapis.com script allow
 appimage.org discourse-cdn-sjc2.com script allow
 apple.com * script inherit
 apple.com cdn-apple.com script allow
+apps.nextcloud.com * script inherit
 archive.org * script inherit
 archlinux.de * script inherit
 archlinux.org * cookie inherit
@@ -103,6 +104,7 @@ blizzard.com * cookie inherit
 blizzard.com * script inherit
 blizzard.com akamaized.net script allow
 blizzard.com battle.net script allow
+blizzard.com d176jfkp3gfyt8.cloudfront.net script allow
 blizzard.com d1bxyeo4j34oeb.cloudfront.net script allow
 blizzard.com d2ertrwg9e34np.cloudfront.net script allow
 blizzard.com d38bqls1q93fod.cloudfront.net script allow
@@ -172,6 +174,7 @@ getfedora.org * script inherit
 gfycat.com * script inherit
 giphy.com * script inherit
 github.com * cookie inherit
+github.com github-production-user-asset-6210df.s3.amazonaws.com xhr allow
 github.com githubassets.com script allow
 gitlab.com * cookie inherit
 gitlab.com * script inherit
@@ -211,6 +214,9 @@ indiegogo.com * cookie inherit
 indiegogo.com * script inherit
 indiegogo.com iggcdn.com script allow
 indiegogo.com ytimg.com * allow
+informationisbeautiful.net * script inherit
+informationisbeautiful.net amazonaws.com script allow
+informationisbeautiful.net vizsweet.com xhr allow
 invidio.us googlevideo.com media allow
 irssi.org * script inherit
 jetbrains.com * cookie inherit
@@ -362,6 +368,7 @@ techradar.com futurecdn.net script allow
 ted.com * script inherit
 ted.com tedcdn.com script allow
 ted.com tedcdn.com xhr allow
+terminal.sexy * script inherit
 theguardian.com guardianapps.co.uk xhr allow
 theguardian.com hm732.com * block
 theguardian.com n123loi.com * block
