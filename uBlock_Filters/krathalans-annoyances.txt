@@ -170,9 +170,13 @@ raider.io##.slds-align--absolute-center.slds-p-around--medium.rio-hidden--small.
 raider.io##.slds-p-bottom--x-large.rio-footer--bg > .slds-align--absolute-center.slds-p-around--medium.rio-hidden--small
 raider.io##.rio-right-pane
 
+! Removes Facebook "advertisement" to like their page
+raider.io##.text-white > .slds-m-bottom--large
+
 ! Removes the onboarding message for the new Reddit UI
 old.reddit.com##.onboardingbar-body
 reddit.com##.onboardingbar-body
+reddit.com###redesign-beta-optin-btn
 
 ! Removes the coin purchase button
 reddit.com###COIN_PURCHASE_DROPDOWN_ID
@@ -187,6 +191,10 @@ redhat.com##.redhat-cookie-banner
 ! Removes "trending stories" and "breaking news" popup 
 reuters.com##.RightRail_container
 reuters.com##.BreakingNews_developing.BreakingNews_bar
+
+! Removes gargantuan ad sections
+slate.com##.top-ad
+slate.com##.bottom-ad
 
 ! Remove ad panels
 speedof.me###left_adpane
