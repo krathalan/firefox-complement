@@ -1,5 +1,5 @@
 ! Title: Krathalan's Annoyances
-! Updated October 23, 2019
+! Updated March 07, 2020
 ! Homepage: https://git.sr.ht/~krathalan/firefox-complement
 ! Direct link: https://git.sr.ht/~krathalan/firefox-complement/blob/master/uBlock_Filters/krathalans-annoyances.txt
 
@@ -169,6 +169,8 @@ raider.io##.sticky-inner-wrapper > .slds-text-align--center > div > .slds-clearf
 raider.io##.slds-align--absolute-center.slds-p-around--medium.rio-hidden--small.slds-text-align--center
 raider.io##.slds-p-bottom--x-large.rio-footer--bg > .slds-align--absolute-center.slds-p-around--medium.rio-hidden--small
 raider.io##.rio-right-pane
+raider.io##.text-white > .slds-m-bottom--large
+raider.io##.rio-main-content > div:nth-of-type(2)
 
 ! Removes Facebook "advertisement" to like their page
 raider.io##.text-white > .slds-m-bottom--large
