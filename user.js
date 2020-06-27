@@ -1,14 +1,36 @@
 /*  Firefox user.js by krathalan
- *  Updated October 03, 2019
+ *  Updated June 27, 2020
  *  License: GPLv3
- *  Copyright (c) 2018-2019 krathalan
+ *  Copyright (c) 2018-2020 krathalan
  *  Homepage: https://git.sr.ht/~krathalan/firefox-complement
  *
  *  This user.js file contains personal or performance preferences and some
- *  common overrides for Ghack's user.js. Append your preferences from this 
- *  file to the end of Ghack's:
- *  https://github.com/ghacksuserjs/ghacks-user.js/wiki/1.1-Overview
+ *  common overrides for Ghack's user.js. Append this file to the end of 
+ *  Ghack's: https://github.com/ghacksuserjs/ghacks-user.js/wiki/1.1-Overview
 */
+
+// -----------------------------------
+// ------------ Annoyances -----------
+// -----------------------------------
+
+// Disable "Recommend extensions as you browse"
+// user_pref("extensions.htmlaboutaddons.recommendations.enabled", false);
+
+// Disable "What's new" popup every time Firefox updates to a new version
+// user_pref("browser.messaging-system.whatsNewPanel.enabled", false);
+
+// Stop Firefox from warning you when closing multiple tabs
+// user_pref("browser.tabs.warnOnClose", false);
+
+// Make single clicking the URL bar select all the text
+// This is set to false by default on Linux
+// user_pref("browser.urlbar.clickSelectsAll", true);
+
+// Block new permission requests
+// user_pref("permissions.default.camera", 2);
+// user_pref("permissions.default.desktop-notification", 2);
+// user_pref("permissions.default.geo", 2);
+// user_pref("permissions.default.microphone", 2);
 
 // -----------------------------------
 // - Common Ghacks user.js overrides -
@@ -60,13 +82,6 @@
 // Draw tabs in the title bar on Linux
 // user_pref("browser.tabs.drawInTitlebar", true);
 
-// Stop Firefox from warning you when closing multiple tabs
-// user_pref("browser.tabs.warnOnClose", false);
-
-// Make single clicking the URL bar select all the text
-// This is set to false by default on Linux
-// user_pref("browser.urlbar.clickSelectsAll", true);
-
 // Set default fonts. Don't leave these blank if uncommented
 // IBM Plex is my FOSS font of choice.
 // user_pref("font.name.monospace.x-western", "IBM Plex Mono");
@@ -98,9 +113,3 @@
 // Default value is 1 (100%). If you want global zoom to be 90%, set to 0.9.
 // If you want global zoom to be 130%, set to 1.3, etc. Convert % to decimal.
 // user_pref("layout.css.devPixelsPerPx", "1.0");
-
-// Block new permission requests
-// user_pref("permissions.default.camera", 2);
-// user_pref("permissions.default.desktop-notification", 2);
-// user_pref("permissions.default.geo", 2);
-// user_pref("permissions.default.microphone", 2);
