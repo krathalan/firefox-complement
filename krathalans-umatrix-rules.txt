@@ -1,5 +1,5 @@
 ! Krathalan's uMatrix Rules
-! Updated February 14, 2020
+! Updated June 27, 2020
 ! Homepage: https://git.sr.ht/~krathalan/firefox-complement
 ! Direct link: https://git.sr.ht/~krathalan/firefox-complement/blob/master/krathalans-umatrix-rules.txt
 ! Copyright (c) 2018-2020 krathalan; License: https://gnu.org/licenses/gpl-3.0.txt
@@ -72,6 +72,7 @@ androidcentral.com cloudflare.com script allow
 androidfilehost.com * cookie inherit
 androidfilehost.com * script inherit
 androidfilehost.com ajax.googleapis.com script allow
+androidfilehost.com cloudflare.com script allow
 appimage.org discourse-cdn-sjc2.com script allow
 apple.com * script inherit
 apple.com cdn-apple.com script allow
