@@ -2,7 +2,7 @@
 Files that make Firefox nicer. Any addons mentioned are free software.
 
 ## Rulesets
-Rulesets are included for [Request Control](https://addons.mozilla.org/en-US/firefox/addon/requestcontrol/) and [uMatrix](https://addons.mozilla.org/en-US/firefox/addon/umatrix/). 
+Rulesets are included for [Request Control](https://addons.mozilla.org/en-US/firefox/addon/requestcontrol/) and [uMatrix](https://addons.mozilla.org/en-US/firefox/addon/umatrix/).
 
 ## Filter Lists
 Additional filter lists for [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) are recommended below.
@@ -17,9 +17,9 @@ Krathalan's Annoyances list: https://git.sr.ht/~krathalan/firefox-complement/blo
 ### Third party fonts
 Fanboy's Anti-thirdparty Fonts list: https://fanboy.co.nz/fanboy-antifonts.txt
 
-The Fanboy list blocks some websites from loading fonts from their own domain, such as on gitlab.com for proper icons. I have created a fork of their anti-thirdparty fonts list that re-allows this functionality. This modified list will still block a majority of web fonts being loaded from CDNs.
+Fonts are commonly loaded from Google, Amazon, and other font hosting sites. This list stops that. The Fanboy list blocks some websites from loading fonts from their own domain, such as on gitlab.com for proper icons.
 
-Krathalan's Anti-thirdparty Fonts list: https://git.sr.ht/~krathalan/firefox-complement/blob/master/uBlock_Filters/krathalans-anti-third-party-fonts.txt
+Some websites may look different or broken when using this list.
 
 ### Other
 Many of these are simply good hosts lists meant to be used with Pihole or similar programs, but work well with uBlock Origin as well.
@@ -28,7 +28,9 @@ Anti-ad: https://raw.githubusercontent.com/anudeepND/blacklist/master/adservers.
 
 Anti-coin miners: https://raw.githubusercontent.com/anudeepND/blacklist/master/CoinMiner.txt
 
-Anti-Facebook: https://raw.githubusercontent.com/anudeepND/blacklist/master/facebook.txt
+Anti-Facebook (anudeepND): https://raw.githubusercontent.com/anudeepND/blacklist/master/facebook.txt
+
+Anti-Facebook (lightswitch05): https://raw.githubusercontent.com/lightswitch05/hosts/master/docs/lists/facebook-extended.txt
 
 Anti-scam/trojans/etc: https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-malware.txt
 

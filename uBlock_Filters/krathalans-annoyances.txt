@@ -55,7 +55,7 @@ cnn.com##.carousel-medium-strip.carousel--fixed.owl-carousel.js-owl-carousel
 ! Removes alert about javascript required but site still works fine :/
 codeweavers.com###nojsalert
 
-! Removes large section at top of page 
+! Removes large section at top of page
 commondreams.org##.l-over-branding
 
 ! Removes ads, popups, and large donation banner (they additionally have a donate button that this filter list does not remove)
@@ -183,14 +183,14 @@ reddit.com###redesign-beta-optin-btn
 ! Removes the coin purchase button
 reddit.com###COIN_PURCHASE_DROPDOWN_ID
 
-! Override AdGuard exception filters 
+! Override AdGuard exception filters
 ||redditstatic.com/desktop2x/js/ads.js$domain=www.reddit.com,important
 ||gateway.reddit.com/desktopapi/v1/sidebar_ads$domain=www.reddit.com,important
 
 ! Removes obnoxious cookie notification
 redhat.com##.redhat-cookie-banner
 
-! Removes "trending stories" and "breaking news" popup 
+! Removes "trending stories" and "breaking news" popup
 reuters.com##.RightRail_container
 reuters.com##.BreakingNews_developing.BreakingNews_bar
 
