@@ -5,7 +5,7 @@
  *  Homepage: https://git.sr.ht/~krathalan/firefox-complement
  *
  *  This user.js file contains personal or performance preferences and some
- *  common overrides for Ghack's user.js. Append this file to the end of 
+ *  common overrides for Ghack's user.js. Append this file to the end of
  *  Ghack's: https://github.com/ghacksuserjs/ghacks-user.js/wiki/1.1-Overview
 */
 
@@ -13,7 +13,7 @@
 // ------------ Annoyances -----------
 // -----------------------------------
 
-// Disable "Recommend extensions as you browse"
+// Disable recommended extensions in about:addons
 // user_pref("extensions.htmlaboutaddons.recommendations.enabled", false);
 
 // Disable "What's new" popup every time Firefox updates to a new version
@@ -75,7 +75,7 @@
 // ------- Personal preferences ------
 // -----------------------------------
 
-// Make Ctrl+Tab cycle through tabs NOT in recently used order, but instead 
+// Make Ctrl+Tab cycle through tabs NOT in recently used order, but instead
 // from left to right
 // user_pref("browser.ctrlTab.recentlyUsedOrder", false);
 
@@ -99,7 +99,7 @@
 // user_pref("general.smoothScroll.mouseWheel.durationMaxMS", 250);
 // user_pref("general.smoothScroll.stopDecelerationWeighting", "0.7");
 // Might need to change this value depending on your mouse/trackpad
-// user_pref("mousewheel.min_line_scroll_amount", 40); 
+// user_pref("mousewheel.min_line_scroll_amount", 40);
 
 // Make Firefox scrolling feel like Google Chrome
 // user_pref("general.smoothScroll.mouseWheel.durationMaxMS", 200);
