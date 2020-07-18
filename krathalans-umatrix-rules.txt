@@ -1,5 +1,5 @@
 ! Krathalan's uMatrix Rules
-! Updated June 27, 2020
+! Updated July 18, 2020
 ! Homepage: https://git.sr.ht/~krathalan/firefox-complement
 ! Direct link: https://git.sr.ht/~krathalan/firefox-complement/blob/master/krathalans-umatrix-rules.txt
 ! Copyright (c) 2018-2020 krathalan; License: https://gnu.org/licenses/gpl-3.0.txt
@@ -59,6 +59,7 @@ abc7amarillo.com * script inherit
 abc7amarillo.com sinclairstoryline.com script allow
 akhilnarang.me * script inherit
 akhilnarang.me cloudflare.com script allow
+allrecipes.com * script inherit
 alternativeto.net * script inherit
 alternativeto.net jquery.com script allow
 alternativeto.net jsdelivr.net script allow
@@ -78,6 +79,8 @@ apple.com * script inherit
 apple.com cdn-apple.com script allow
 apps.nextcloud.com * script inherit
 archive.org * script inherit
+archiveprogram.github.com * script inherit
+archiveprogram.github.com jquery.com script allow
 archlinux.de * script inherit
 archlinux.org * cookie inherit
 archlinuxarm.org * script inherit
@@ -85,6 +88,9 @@ archlinuxarm.org ajax.googleapis.com script allow
 arstechnica.com * script inherit
 arstechnica.com arstechnica.net script allow
 artstation.com * script inherit
+ballotpedia.org * script inherit
+ballotpedia.org ajax.googleapis.com script allow
+ballotpedia.org billtrack50.com script allow
 barnesandnoble.com js-bn.com script allow
 battle.net * cookie inherit
 battle.net * script inherit
@@ -98,6 +104,8 @@ bbc.com bbc.co.uk script allow
 bbc.com bbci.co.uk script allow
 becu.org * cookie inherit
 becu.org * script inherit
+billtrack50.com * script inherit
+billtrack50.com ajax.googleapis.com script allow
 bjsrestaurants.com * script inherit
 bleepingcomputer.com * script inherit
 bleepingcomputer.com bleepstatic.com script allow
@@ -130,9 +138,12 @@ bungie.net * script inherit
 businessinsider.com * script inherit
 cbsnews.com cbsistatic.com script allow
 chocolatey.org * script inherit
+cloudflare.com * script inherit
 community.arduboy.com discourse-cdn.com script allow
 curseforge.com * cookie inherit
 curseforge.com * script inherit
+cyberciti.biz * cookie inherit
+cyberciti.biz * script inherit
 dailymotion.com * script inherit
 dailymotion.com ajax.googleapis.com script allow
 dailymotion.com dmcdn.net script allow
@@ -140,6 +151,7 @@ darksky.net * script inherit
 ddo.com * script inherit
 decentraleyes.org * script inherit
 decentraleyes.org ajax.googleapis.com script allow
+deepl.com * script inherit
 destinytracker.com * script inherit
 digitalocean.com * script inherit
 disroot.org * cookie inherit
@@ -165,6 +177,7 @@ flickr.com staticflickr.com script allow
 flickr.com yimg.com script allow
 forbes.com forbesimg.com script allow
 fosdem.org * media allow
+freesound.org * script inherit
 freewear.org * script inherit
 gamepedia.com * script inherit
 gamerdvr.com * script inherit
@@ -219,9 +232,11 @@ informationisbeautiful.net * script inherit
 informationisbeautiful.net amazonaws.com script allow
 informationisbeautiful.net vizsweet.com xhr allow
 invidio.us googlevideo.com media allow
+ipv6-test.com * script inherit
 irssi.org * script inherit
 jetbrains.com * cookie inherit
 jetbrains.com * script inherit
+jqplay.org * script inherit
 kickstarter.com * cookie inherit
 kickstarter.com * script inherit
 kingcounty.gov ajax.googleapis.com script allow
@@ -242,6 +257,7 @@ lineageos.org cloudflare.com script allow
 lineageos.org jquery.com script allow
 linode.com * cookie inherit
 linode.com * script inherit
+linode.com cloudflare.com script allow
 linuxconfig.org * script inherit
 linuxconfig.org cloudflare.com script allow
 lmgtfy.com * script inherit
@@ -268,8 +284,10 @@ newegg.com www.gstatic.com * allow
 newsweek.com * script inherit
 nitter.net * cookie inherit
 nitter.net * script inherit
+nixnet.services * script inherit
 njal.la * script inherit
 nymag.com pixel.nymag.com * block
+observatory.mozilla.org * xhr allow
 opensuse.org * script inherit
 orcacard.com * cookie inherit
 orcacard.com * script inherit
@@ -326,6 +344,7 @@ reddit.com redd.it xhr allow
 reddit.com redditmedia.com frame allow
 reddit.com redditmedia.com media allow
 reddit.com redditstatic.com script allow
+regex101.com * script inherit
 repology.org * script inherit
 reuters.com * script inherit
 reuters.com reutersmedia.net script allow
@@ -337,6 +356,7 @@ riot.im matrix.org cookie allow
 riot.im matrix.org xhr allow
 search.privacytools.io * cookie inherit
 seattletimes.com * script inherit
+securitylab.github.com * script inherit
 shields.io * script inherit
 shields.io gstatic.com * inherit
 signal.org * script inherit
@@ -357,6 +377,9 @@ steampowered.com * cookie inherit
 steampowered.com * script inherit
 steampowered.com akamaihd.net media allow
 steampowered.com akamaihd.net script allow
+stedolan.github.io * script inherit
+stedolan.github.io ajax.googleapis.com script allow
+stedolan.github.io bootstrapcdn.com script allow
 streamable.com * script inherit
 swaywm.org * script inherit
 swaywm.org sr.ht media allow

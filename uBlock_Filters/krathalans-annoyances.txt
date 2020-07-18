@@ -114,6 +114,10 @@ humblebundle.com###site-xpromo-banner
 icy-veins.com###icy_veins_plea
 icy-veins.com###premium_information
 
+! Removes "engagement" bar and "recommended posts" sidebar
+imgur.com##.Gallery-EngagementBar
+imgur.com##.Gallery-Sidebar
+
 ! Removes trash when Javascript is disabled
 independent.co.uk##.align-.i-gallery.inline-media
 independent.co.uk###comments
