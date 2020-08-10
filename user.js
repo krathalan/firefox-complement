@@ -75,6 +75,10 @@
 // ------- Personal preferences ------
 // -----------------------------------
 
+// Make Firefox load userChrome.css/userContent.css
+// https://www.ghacks.net/2019/05/24/firefox-69-userchrome-css-and-usercontent-css-disabled-by-default/
+// user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
+
 // Make Ctrl+Tab cycle through tabs NOT in recently used order, but instead
 // from left to right
 // user_pref("browser.ctrlTab.recentlyUsedOrder", false);
