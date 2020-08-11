@@ -36,6 +36,9 @@
 // - Common Ghacks user.js overrides -
 // -----------------------------------
 
+// Restore animations
+// user_pref("ui.prefersReducedMotion", 0);
+
 // Disable Pocket
 // user_pref("extensions.pocket.enabled", false);
 
