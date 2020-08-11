@@ -263,3 +263,6 @@ wowhead.com##.news-current-guides
 wowhead.com##.news-content-spotlight
 wowhead.com##.footer-fanbyte
 wowhead.com###main > .blocks
+
+# Remove ads
+xiaomifirmwareupdater.com##[href^="https://www.banggood.com/"]
