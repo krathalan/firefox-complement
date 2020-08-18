@@ -1,5 +1,5 @@
 ! Krathalan's uMatrix Rules
-! Updated July 18, 2020
+! Updated August 17, 2020
 ! Homepage: https://git.sr.ht/~krathalan/firefox-complement
 ! Direct link: https://git.sr.ht/~krathalan/firefox-complement/blob/master/krathalans-umatrix-rules.txt
 ! Copyright (c) 2018-2020 krathalan; License: https://gnu.org/licenses/gpl-3.0.txt
@@ -140,6 +140,7 @@ cbsnews.com cbsistatic.com script allow
 chocolatey.org * script inherit
 cloudflare.com * script inherit
 community.arduboy.com discourse-cdn.com script allow
+crates.io * script inherit
 curseforge.com * cookie inherit
 curseforge.com * script inherit
 cyberciti.biz * cookie inherit
@@ -167,10 +168,14 @@ ebay.com ebaydesc.com frame allow
 ebay.com ebaystatic.com script allow
 engadget.com * script inherit
 esquire.com * script inherit
+exercism.io * cookie inherit
+exercism.io * script inherit
+exercism.io cloudflare.com script allow
 fandango.com ajax.googleapis.com script allow
 fckdrm.com * script inherit
 firefox.com * script inherit
 firefox.com mozilla.net * allow
+flashalert.net * cookie inherit
 flathub.org * script inherit
 flickr.com * script inherit
 flickr.com staticflickr.com script allow
@@ -354,6 +359,7 @@ riot.im * cookie inherit
 riot.im * script inherit
 riot.im matrix.org cookie allow
 riot.im matrix.org xhr allow
+rust-lang.org * script inherit
 search.privacytools.io * cookie inherit
 seattletimes.com * script inherit
 securitylab.github.com * script inherit
@@ -400,6 +406,8 @@ theverge.com vox-cdn.com frame allow
 theverge.com vox-cdn.com script allow
 theverge.com voxmedia.com script allow
 thinkpenguin.com * cookie inherit
+tomsguide.com * script inherit
+tomsguide.com futurecdn.net script allow
 tumblr.com * script inherit
 tumblr.com ajax.googleapis.com script allow
 tuxphones.com * script inherit
