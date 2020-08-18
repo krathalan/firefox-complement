@@ -278,6 +278,32 @@
     "active": true
   },
   {
+    "title": "Remove UTM query parameters",
+    "uuid": "5276a290-b21a-4deb-a86e-aa54c3ff1bcc",
+    "description": "Remove UTM query parameters from requests. UTM query parameters are commonly used as a method to analyze the origin of traffic.",
+    "tag": "filter-utm",
+    "pattern": {
+      "scheme": "*",
+      "host": [
+        "*"
+      ],
+      "path": [
+        "*utm_*"
+      ]
+    },
+    "types": [
+      "main_frame"
+    ],
+    "action": "filter",
+    "active": true,
+    "skipRedirectionFilter": true,
+    "paramsFilter": {
+      "values": [
+        "utm_*"
+      ]
+    }
+  },
+  {
     "name": "Block Beacon requests",
     "uuid": "32db1f93-f99d-4c45-8485-e5c7beec5a69",
     "pattern": {
@@ -290,6 +316,54 @@
     ],
     "tag": "block-beacon",
     "description": "Block Beacon requests. The Beacon API is often used for logging user activity and sending analytics data to the server."
+  },
+  {
+    "title": "Stop Facebook's outgoing link redirection service tracking",
+    "uuid": "07be1337-ceec-4a93-a49e-67e051124a7f",
+    "description": "This filter rule prevents Facebook from obtaining the URL of clicked search link via URL redirection.",
+    "tag": "filter-facebook",
+    "pattern": {
+      "scheme": "*",
+      "host": "l.facebook.*",
+      "topLevelDomains": [
+        "com",
+        "net"
+      ],
+      "path": "l.php?u=*"
+    },
+    "types": [
+      "main_frame",
+      "sub_frame"
+    ],
+    "action": "filter",
+    "active": true
+  },
+  {
+    "title": "Remove FBCLID query parameters",
+    "uuid": "07be1337-4d49-475b-9062-8b191099621b",
+    "description": "Remove fbclid query parameters from requests. Facebook click identifier query parameters are commonly used as a method to analyze the origin of traffic.",
+    "tag": "filter-facebook",
+    "pattern": {
+      "scheme": "*",
+      "host": [
+        "*"
+      ],
+      "path": [
+        "*fbclid*"
+      ]
+    },
+    "types": [
+      "main_frame",
+      "sub_frame"
+    ],
+    "action": "filter",
+    "active": true,
+    "paramsFilter": {
+      "values": [
+        "fbclid"
+      ]
+    },
+    "skipRedirectionFilter": true
   },
   {
     "uuid": "c2afa2ad-92ce-4bac-86e4-7e591d9554e4",
@@ -344,6 +418,7 @@
         "cmpid",
         "elqTrack",
         "elqTrackId",
+        "entrypoint",
         "ex_cid",
         "fb_*",
         "fbclid",
