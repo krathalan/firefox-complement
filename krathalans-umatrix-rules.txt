@@ -1,5 +1,5 @@
 ! Krathalan's uMatrix Rules
-! Updated August 17, 2020
+! Updated August 19, 2020
 ! Homepage: https://git.sr.ht/~krathalan/firefox-complement
 ! Direct link: https://git.sr.ht/~krathalan/firefox-complement/blob/master/krathalans-umatrix-rules.txt
 ! Copyright (c) 2018-2020 krathalan; License: https://gnu.org/licenses/gpl-3.0.txt
@@ -263,16 +263,22 @@ lineageos.org jquery.com script allow
 linode.com * cookie inherit
 linode.com * script inherit
 linode.com cloudflare.com script allow
+linode.com hcaptcha.com frame allow
+linode.com hcaptcha.com script allow
+linode.com hcaptcha.com xhr allow
 linuxconfig.org * script inherit
 linuxconfig.org cloudflare.com script allow
 lmgtfy.com * script inherit
 lmgtfy.com ajax.googleapis.com script allow
 lutris.net * script inherit
 manjaro.org * script inherit
+marketplace.visualstudio.com * script inherit
+marketplace.visualstudio.com vsassets.io script allow
 microsoft.com * script inherit
 minecraft.net * script inherit
 minecraft.net braintreegateway.com script allow
 minecraft.net mojang.com xhr allow
+monitor.firefox.com * cookie inherit
 mozilla.github.io * script inherit
 mozilla.org * script inherit
 mozilla.org bugzilla-graphql-gateway.herokuapp.com xhr allow
@@ -293,6 +299,9 @@ nixnet.services * script inherit
 njal.la * script inherit
 nymag.com pixel.nymag.com * block
 observatory.mozilla.org * xhr allow
+omnirom.org * script inherit
+omnirom.org github.com xhr allow
+omnirom.org unpkg.com script allow
 opensuse.org * script inherit
 orcacard.com * cookie inherit
 orcacard.com * script inherit
@@ -359,6 +368,8 @@ riot.im * cookie inherit
 riot.im * script inherit
 riot.im matrix.org cookie allow
 riot.im matrix.org xhr allow
+rust-lang.github.io * script inherit
+rust-lang.github.io cloudflare.com script allow
 rust-lang.org * script inherit
 search.privacytools.io * cookie inherit
 seattletimes.com * script inherit
@@ -369,6 +380,7 @@ signal.org * script inherit
 signal.org ajax.googleapis.com script allow
 signal.org bootstrapcdn.com script allow
 signal.org jquery.com script allow
+smokeandshine.com * script inherit
 sourceforge.net fsdn.com script allow
 speedof.me * script inherit
 speedof.me highcharts.com script allow
@@ -477,3 +489,5 @@ xda-developers.com ajax.googleapis.com script allow
 xda-developers.com algolia.net xhr allow
 xda-developers.com cloudflare.com script allow
 xda-developers.com xda-cdn.com script allow
+xiaomifirmwareupdater.com * script inherit
+xiaomifirmwareupdater.com cloudflare.com script allow
