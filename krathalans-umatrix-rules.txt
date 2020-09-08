@@ -1,5 +1,5 @@
 ! Krathalan's uMatrix Rules
-! Updated August 19, 2020
+! Updated September 8, 2020
 ! Homepage: https://git.sr.ht/~krathalan/firefox-complement
 ! Direct link: https://git.sr.ht/~krathalan/firefox-complement/blob/master/krathalans-umatrix-rules.txt
 ! Copyright (c) 2018-2020 krathalan; License: https://gnu.org/licenses/gpl-3.0.txt
@@ -74,6 +74,11 @@ androidfilehost.com * cookie inherit
 androidfilehost.com * script inherit
 androidfilehost.com ajax.googleapis.com script allow
 androidfilehost.com cloudflare.com script allow
+apkmirror.com * cookie inherit
+apkmirror.com * script inherit
+apkmirror.com assets.hcaptcha.com frame allow
+apkmirror.com hcaptcha.com script allow
+apkmirror.com hcaptcha.com xhr allow
 appimage.org discourse-cdn-sjc2.com script allow
 apple.com * script inherit
 apple.com cdn-apple.com script allow
@@ -172,6 +177,8 @@ exercism.io * cookie inherit
 exercism.io * script inherit
 exercism.io cloudflare.com script allow
 fandango.com ajax.googleapis.com script allow
+fast.com * script allow
+fast.com * xhr allow
 fckdrm.com * script inherit
 firefox.com * script inherit
 firefox.com mozilla.net * allow
@@ -236,6 +243,7 @@ indiegogo.com ytimg.com * allow
 informationisbeautiful.net * script inherit
 informationisbeautiful.net amazonaws.com script allow
 informationisbeautiful.net vizsweet.com xhr allow
+intel.com * script inherit
 invidio.us googlevideo.com media allow
 ipv6-test.com * script inherit
 irssi.org * script inherit
@@ -266,6 +274,7 @@ linode.com cloudflare.com script allow
 linode.com hcaptcha.com frame allow
 linode.com hcaptcha.com script allow
 linode.com hcaptcha.com xhr allow
+linustechtips.com * script inherit
 linuxconfig.org * script inherit
 linuxconfig.org cloudflare.com script allow
 lmgtfy.com * script inherit
