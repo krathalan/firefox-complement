@@ -4,6 +4,9 @@ Files that make Firefox nicer. Any addons mentioned are free software.
 ## Rulesets
 Rulesets are included for [Request Control](https://addons.mozilla.org/en-US/firefox/addon/requestcontrol/) and [uMatrix](https://addons.mozilla.org/en-US/firefox/addon/umatrix/).
 
+### NOTICE: uMatrix Rules
+With the deprecation/archiving of uMatrix (https://github.com/gorhill/uMatrix), I have translated my uMatrix rule list into a uBlock Origin dynamic rules list that is much less granular. The uBlock Origin dynamic rules list blocks 3rd party scripts and frames by default and selectively reenables 3rd party scripts on a site-by-site basis, similar to the old uMatrix rules list. I will keep the uMatrix rules list in this repo for the time being.
+
 ## Filter Lists
 Additional filter lists for [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) are recommended below.
 
