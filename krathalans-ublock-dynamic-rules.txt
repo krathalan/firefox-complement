@@ -1,7 +1,7 @@
 ! Krathalan's uBlock Origin dynamic rules
 ! Unfortunately with the deprecation of uMatrix this is the next best way
 ! to block third party scripts and frames (without using NoScript).
-! Updated September 20, 2020
+! Updated September 26, 2020
 ! Homepage: https://git.sr.ht/~krathalan/firefox-complement
 ! Direct link: https://git.sr.ht/~krathalan/firefox-complement/blob/master/krathalans-ublock-dynamic-rules.txt
 ! Copyright (c) 2018-2020 krathalan; License: https://gnu.org/licenses/gpl-3.0.txt
@@ -91,9 +91,10 @@ light.gg jsdelivr.net * noop
 lineageos.org cloudflare.com * noop
 lineageos.org jquery.com * noop
 linode.com cloudflare.com * noop
-login.linode.com hcaptcha.com * noop
 linuxconfig.org cloudflare.com * noop
 lmgtfy.com ajax.googleapis.com * noop
+login.linode.com cloudflare.net * noop
+login.linode.com hcaptcha.com * noop
 marketplace.visualstudio.com vsassets.io * noop
 minecraft.net braintreegateway.com * noop
 mozilla.org mozilla.net * noop
@@ -116,6 +117,7 @@ raider.io wowhead.com * noop
 raider.io zamimg.com * noop
 realmpop.com ajax.googleapis.com * noop
 realmpop.com google.com * noop
+reddit.com reddit.map.fastly.net * noop
 reddit.com redditmedia.com * noop
 reddit.com redditstatic.com * noop
 reuters.com reutersmedia.net * noop
