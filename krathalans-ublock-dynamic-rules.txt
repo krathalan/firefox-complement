@@ -1,7 +1,7 @@
 ! Krathalan's uBlock Origin dynamic rules
 ! Unfortunately with the deprecation of uMatrix this is the next best way
 ! to block third party scripts and frames (without using NoScript).
-! Updated September 26, 2020
+! Updated October 5, 2020
 ! Homepage: https://git.sr.ht/~krathalan/firefox-complement
 ! Direct link: https://git.sr.ht/~krathalan/firefox-complement/blob/master/krathalans-ublock-dynamic-rules.txt
 ! Copyright (c) 2018-2020 krathalan; License: https://gnu.org/licenses/gpl-3.0.txt
@@ -13,8 +13,8 @@ akhilnarang.me cloudflare.com * noop
 alternativeto.net jquery.com * noop
 alternativeto.net jsdelivr.net * noop
 andrewchristian.com cloudflare.com * noop
-android.com gstatic.com * noop
 androidcentral.com cloudflare.com * noop
+android.com gstatic.com * noop
 androidfilehost.com ajax.googleapis.com * noop
 androidfilehost.com cloudflare.com * noop
 apkmirror.com hcaptcha.com * noop
@@ -28,9 +28,9 @@ ballotpedia.org billtrack50.com * noop
 barnesandnoble.com js-bn.com * noop
 battle.net akamaihd.net * noop
 battle.net akamaized.net * noop
-bbc.co.uk bbci.co.uk * noop
 bbc.com bbc.co.uk * noop
 bbc.com bbci.co.uk * noop
+bbc.co.uk bbci.co.uk * noop
 billtrack50.com ajax.googleapis.com * noop
 bleepingcomputer.com bleepstatic.com * noop
 blizzard.com akamaized.net * noop
@@ -79,6 +79,7 @@ imdb.com db187550c7dkf.cloudfront.net * noop
 imdb.com media-amazon.com * noop
 imdb.com media-imdb.com * noop
 imdb.com ssl-images-amazon.com * noop
+imgur.com ipv4.imgur.map.fastly.net * noop
 indiegogo.com iggcdn.com * noop
 informationisbeautiful.net amazonaws.com * noop
 kingcounty.gov ajax.googleapis.com * noop
@@ -149,17 +150,18 @@ twofactorauth.org jquery.com * noop
 userbenchmark.com ajax.googleapis.com * noop
 vimeo.com vimeocdn.com * noop
 voidlinux.org github.com * noop
-warcraft-secrets.com jquery.com * noop
 warcraftlogs.com cloudflare.com * noop
 warcraftlogs.com datatables.net * noop
 warcraftlogs.com dmszsuqyoe6y6.cloudfront.net * noop
 warcraftlogs.com zamimg.com * noop
 warcraftpets.com ajax.googleapis.com * noop
+warcraft-secrets.com jquery.com * noop
 winehq.org fontawesome.com * noop
 worldofwarcraft.com akamaized.net * noop
 wowhead.com ajax.googleapis.com * noop
 wowhead.com www.googleapis.com * noop
 wowtokenprices.com ajax.googleapis.com * noop
+www.youtube.com youtube-ui.l.google.com * noop
 xda-developers.com ajax.googleapis.com * noop
 xda-developers.com cloudflare.com * noop
 xda-developers.com xda-cdn.com * noop
