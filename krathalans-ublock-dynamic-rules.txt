@@ -1,7 +1,7 @@
 ! Krathalan's uBlock Origin dynamic rules
 ! Unfortunately with the deprecation of uMatrix this is the next best way
 ! to block third party scripts and frames (without using NoScript).
-! Updated October 5, 2020
+! Updated October 16, 2020
 ! Homepage: https://git.sr.ht/~krathalan/firefox-complement
 ! Direct link: https://git.sr.ht/~krathalan/firefox-complement/blob/master/krathalans-ublock-dynamic-rules.txt
 ! Copyright (c) 2018-2020 krathalan; License: https://gnu.org/licenses/gpl-3.0.txt
@@ -23,6 +23,7 @@ apple.com cdn-apple.com * noop
 archiveprogram.github.com jquery.com * noop
 archlinuxarm.org ajax.googleapis.com * noop
 arstechnica.com arstechnica.net * noop
+arstechnica.com cachefly.net * noop
 ballotpedia.org ajax.googleapis.com * noop
 ballotpedia.org billtrack50.com * noop
 barnesandnoble.com js-bn.com * noop
@@ -51,8 +52,13 @@ bloomberg.com bwbx.io * noop
 bloomberg.com www.bloomberg.com * noop
 bountysource.com cloudflare.com * noop
 bountysource.com d2bbtvgnhux6eq.cloudfront.net * noop
+bugs.chromium.org bugs.chromium.org * noop
+bugs.chromium.org googlehosted.com * noop
+bugs.chromium.org monorail-prod-default-v091-dot-monorail-prod.appspot.com * noop
 cbsnews.com cbsistatic.com * noop
 community.arduboy.com discourse-cdn.com * noop
+community.letsencrypt.org discourse-cdn.com * noop
+community.letsencrypt.org kxcdn.com * noop
 dailymotion.com ajax.googleapis.com * noop
 dailymotion.com dmcdn.net * noop
 decentraleyes.org ajax.googleapis.com * noop
@@ -86,12 +92,15 @@ kingcounty.gov ajax.googleapis.com * noop
 kingcounty.gov bootstrapcdn.com * noop
 komonews.com sinclairstoryline.com * noop
 kotaku.com kinja-static.com * noop
+life.com d2vd74lg8gkrrp.cloudfront.net * noop
 lifehacker.com kinja-static.com * noop
 light.gg cloudflare.com * noop
 light.gg jsdelivr.net * noop
 lineageos.org cloudflare.com * noop
 lineageos.org jquery.com * noop
 linode.com cloudflare.com * noop
+linode.com cloudflare.net * noop
+linode.com hcaptcha.com * noop
 linuxconfig.org cloudflare.com * noop
 lmgtfy.com ajax.googleapis.com * noop
 login.linode.com cloudflare.net * noop
@@ -99,8 +108,11 @@ login.linode.com hcaptcha.com * noop
 marketplace.visualstudio.com vsassets.io * noop
 minecraft.net braintreegateway.com * noop
 mozilla.org mozilla.net * noop
+nasa.gov d30etcnkn29cv0.cloudfront.net * noop
 newegg.com gstatic.com * noop
 newegg.com neweggimages.com * noop
+no-large-media: behind-the-scene false
+nytimes.com nytimes.map.fastly.net * noop
 omnirom.org unpkg.com * noop
 orcacard.com digicert.com * noop
 overwatchleague.com d2y4mhrku00tr3.cloudfront.net * noop
@@ -124,6 +136,7 @@ reddit.com redditstatic.com * noop
 reuters.com reutersmedia.net * noop
 reuters.com thomsonreuters.com * noop
 rust-lang.github.io cloudflare.com * noop
+shadowlands.wowhead.com zamimg.com * noop
 signal.org ajax.googleapis.com * noop
 signal.org bootstrapcdn.com * noop
 signal.org jquery.com * noop
@@ -138,6 +151,7 @@ system76.com d1vhcvzji58n1j.cloudfront.net * noop
 target.com targetimg1.com * noop
 techradar.com futurecdn.net * noop
 ted.com tedcdn.com * noop
+thesaurus.com dictionary.map.fastly.net * noop
 theverge.com vox-cdn.com * noop
 theverge.com voxmedia.com * noop
 tomsguide.com futurecdn.net * noop
@@ -157,12 +171,15 @@ warcraftlogs.com zamimg.com * noop
 warcraftpets.com ajax.googleapis.com * noop
 warcraft-secrets.com jquery.com * noop
 winehq.org fontawesome.com * noop
+wired.co.uk cni-digital.map.fastly.net * noop
 worldofwarcraft.com akamaized.net * noop
 wowhead.com ajax.googleapis.com * noop
 wowhead.com www.googleapis.com * noop
+wowhead.com zamimg.com * noop
 wowtokenprices.com ajax.googleapis.com * noop
 www.youtube.com youtube-ui.l.google.com * noop
 xda-developers.com ajax.googleapis.com * noop
 xda-developers.com cloudflare.com * noop
 xda-developers.com xda-cdn.com * noop
 xiaomifirmwareupdater.com cloudflare.com * noop
+youtube.com google.com * noop

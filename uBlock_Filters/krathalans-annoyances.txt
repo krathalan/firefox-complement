@@ -1,10 +1,13 @@
 ! Title: Krathalan's Annoyances
-! Updated March 07, 2020
+! Updated October 16, 2020
 ! Homepage: https://git.sr.ht/~krathalan/firefox-complement
 ! Direct link: https://git.sr.ht/~krathalan/firefox-complement/blob/master/uBlock_Filters/krathalans-annoyances.txt
 
 ! Copyright (c) 2018-2019 krathalan
 ! License: https://gnu.org/licenses/gpl-3.0.txt
+
+! Fixes
+@@||reddit.map.fastly.net^$font,domain=www.reddit.com
 
 ! Remove content carousel
 abcnews.go.com###news-feed
@@ -131,6 +134,9 @@ leafly.com##.single-internal-gutter.boomapps_vccolumn.col-lg-4.column_parent.ali
 leafly.com##.leafly-inline-related-story-standard
 leafly.com##div.leafly-inline-related-story
 
+! Removes videos sidebar
+linustechtips.com###ipsLayout_sidebar
+
 ! Removes popovers
 lmgtfy.com##.active.ng-scope.popover.sticker-popover
 
@@ -167,6 +173,10 @@ playoverwatch.com##.is-open.Navbar-promotion.Navbar-toast
 quora.com##.question_main_col > .unified.PagedListFoo.UnifiedAnswerPagedList
 
 ! Removes several "Remove ads" notices and increases space efficiency
+raider.io##.rio-shadow--large.d-inline-block.slds-text-align--center
+raider.io##.fa-times.fa
+raider.io##.slds-text-heading--small.slds-p-around--small.cookie-footer--wrapper
+raider.io###reamazejs-container
 raider.io##.slds-text-heading--medium.slds-p-around--large.cookieFooter-module__wrapper___3iC-G
 raider.io##.rio-right-pane > div > .slds-text-align--center > div > .slds-clearfix
 raider.io##.sticky-inner-wrapper > .slds-text-align--center > div > .slds-clearfix
@@ -232,6 +242,9 @@ twitter.com###signin-dropdown
 
 ! Removes popunder
 wikitechy.com###single-sticky
+
+! Removes recommended stories
+wired.co.uk##.js-c-top-stories-lazy-load.c-top-stories-lazy-load
 
 ! Removes countdown timer and promotional popups
 worldofwarcraft.com##.CountdownTimer
