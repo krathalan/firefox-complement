@@ -12,6 +12,8 @@ abc7amarillo.com sinclairstoryline.com * noop
 akhilnarang.me cloudflare.com * noop
 alternativeto.net jquery.com * noop
 alternativeto.net jsdelivr.net * noop
+amazon.com c.media-amazon.com * noop
+amazon.com images-na.ssl-images-amazon.com * noop
 andrewchristian.com cloudflare.com * noop
 androidcentral.com cloudflare.com * noop
 android.com gstatic.com * noop
@@ -106,6 +108,7 @@ lmgtfy.com ajax.googleapis.com * noop
 login.linode.com cloudflare.net * noop
 login.linode.com hcaptcha.com * noop
 marketplace.visualstudio.com vsassets.io * noop
+microsoft.com akamaiedge.net * noop
 minecraft.net braintreegateway.com * noop
 mozilla.org mozilla.net * noop
 nasa.gov d30etcnkn29cv0.cloudfront.net * noop
@@ -136,6 +139,8 @@ reddit.com redditstatic.com * noop
 reuters.com reutersmedia.net * noop
 reuters.com thomsonreuters.com * noop
 rust-lang.github.io cloudflare.com * noop
+samsung.com akamaiedge.net * noop
+samsung.com akamaiedge.net * noop
 shadowlands.wowhead.com zamimg.com * noop
 signal.org ajax.googleapis.com * noop
 signal.org bootstrapcdn.com * noop
