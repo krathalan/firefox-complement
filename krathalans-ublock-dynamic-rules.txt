@@ -98,7 +98,7 @@ kingcounty.gov ajax.googleapis.com * noop
 kingcounty.gov bootstrapcdn.com * noop
 komonews.com sinclairstoryline.com * noop
 kotaku.com kinja-static.com * noop
-life.com d2vd74lg8gkrrp.cloudfront.net * noop
+life.com cloudfront.net * noop
 lifehacker.com kinja-static.com * noop
 light.gg cloudflare.com * noop
 light.gg jsdelivr.net * noop
@@ -116,9 +116,9 @@ microsoft.com akamaiedge.net * noop
 minecraft.net braintreegateway.com * noop
 mozilla.org mozilla.net * noop
 nasa.gov d30etcnkn29cv0.cloudfront.net * noop
+nasa.gov cloudfront.net * noop
 newegg.com akamaiedge.net * noop
 newegg.com gstatic.com * noop
-newegg.com neweggimages.com * noop
 newegg.com neweggimages.com * noop
 no-large-media: behind-the-scene false
 nytimes.com nytimes.map.fastly.net * noop
@@ -147,7 +147,6 @@ reddit.com redditstatic.com * noop
 reuters.com reutersmedia.net * noop
 reuters.com thomsonreuters.com * noop
 rust-lang.github.io cloudflare.com * noop
-samsung.com akamaiedge.net * noop
 samsung.com akamaiedge.net * noop
 shadowlands.wowhead.com zamimg.com * noop
 signal.org ajax.googleapis.com * noop
