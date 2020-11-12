@@ -1,7 +1,7 @@
 ! Krathalan's uBlock Origin dynamic rules
 ! Unfortunately with the deprecation of uMatrix this is the next best way
 ! to block third party scripts and frames (without using NoScript).
-! Updated October 21, 2020
+! Updated November 11, 2020
 ! Homepage: https://git.sr.ht/~krathalan/firefox-complement
 ! Direct link: https://git.sr.ht/~krathalan/firefox-complement/blob/master/krathalans-ublock-dynamic-rules.txt
 ! Copyright (c) 2018-2020 krathalan; License: https://gnu.org/licenses/gpl-3.0.txt
@@ -13,6 +13,7 @@ akhilnarang.me cloudflare.com * noop
 alternativeto.net jquery.com * noop
 alternativeto.net jsdelivr.net * noop
 amazon.com c.media-amazon.com * noop
+amazon.com e264.dsca.akamaiedge.net * noop
 amazon.com images-na.ssl-images-amazon.com * noop
 andrewchristian.com cloudflare.com * noop
 androidcentral.com cloudflare.com * noop
@@ -39,12 +40,8 @@ billtrack50.com ajax.googleapis.com * noop
 bleepingcomputer.com bleepstatic.com * noop
 blizzard.com akamaized.net * noop
 blizzard.com battle.net * noop
-blizzard.com d176jfkp3gfyt8.cloudfront.net * noop
-blizzard.com d1bxyeo4j34oeb.cloudfront.net * noop
-blizzard.com d2ertrwg9e34np.cloudfront.net * noop
-blizzard.com d38bqls1q93fod.cloudfront.net * noop
-blizzard.com d74zh8edaijub.cloudfront.net * noop
-blizzard.com d9me64que7cqs.cloudfront.net * noop
+blizzard.com cloudfront.net * noop
+blizzardgearstore.com akamaiedge.net * noop
 blizzcon.com akamaihd.net * noop
 bloodmallet.com bootstrapcdn.com * noop
 bloodmallet.com highcharts.com * noop
@@ -66,6 +63,7 @@ community.letsencrypt.org kxcdn.com * noop
 dailymotion.com ajax.googleapis.com * noop
 dailymotion.com dmcdn.net * noop
 decentraleyes.org ajax.googleapis.com * noop
+ebay.com ebay.map.fastly.net * noop
 ebay.com ebaystatic.com * noop
 exercism.io cloudflare.com * noop
 fandango.com ajax.googleapis.com * noop
@@ -115,7 +113,6 @@ marketplace.visualstudio.com vsassets.io * noop
 microsoft.com akamaiedge.net * noop
 minecraft.net braintreegateway.com * noop
 mozilla.org mozilla.net * noop
-nasa.gov d30etcnkn29cv0.cloudfront.net * noop
 nasa.gov cloudfront.net * noop
 newegg.com akamaiedge.net * noop
 newegg.com gstatic.com * noop
@@ -153,6 +150,7 @@ signal.org ajax.googleapis.com * noop
 signal.org bootstrapcdn.com * noop
 signal.org jquery.com * noop
 smile.amazon.com media-amazon.com * noop
+smile.amazon.com media.amazon.map.fastly.net * noop
 smile.amazon.com ssl-images-amazon.com * noop
 sourceforge.net fsdn.com * noop
 speedof.me highcharts.com * noop
@@ -161,12 +159,15 @@ steamcommunity.com akamaihd.net * noop
 steampowered.com akamaihd.net * noop
 stedolan.github.io ajax.googleapis.com * noop
 stedolan.github.io bootstrapcdn.com * noop
+store.steampowered.com steamstatic.com * noop
 system76.com d1vhcvzji58n1j.cloudfront.net * noop
 target.com targetimg1.com * noop
 techradar.com futurecdn.net * noop
 techspot.com ajax.googleapis.com * noop
 techspot.com stackpathcdn.com * noop
 ted.com tedcdn.com * noop
+theguardian.com guardian.map.fastly.net * noop
+theguardian.com guim.co.uk * noop
 thesaurus.com dictionary.map.fastly.net * noop
 theverge.com vox-cdn.com * noop
 theverge.com voxmedia.com * noop
