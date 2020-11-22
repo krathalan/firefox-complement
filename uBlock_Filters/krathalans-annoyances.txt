@@ -1,5 +1,5 @@
 ! Title: Krathalan's Annoyances
-! Updated October 16, 2020
+! Updated November 22, 2020
 ! Homepage: https://git.sr.ht/~krathalan/firefox-complement
 ! Direct link: https://git.sr.ht/~krathalan/firefox-complement/blob/master/uBlock_Filters/krathalans-annoyances.txt
 
@@ -97,6 +97,9 @@ gamedaily.biz###side-rail
 gfycat.com##.share-desktop-container > .block-3
 gfycat.com##.navigation__bottom-row
 
+# Remove popover
+github.com##.js-notice.Popover
+
 ! Remove Auto Dev Ops dismissable banner
 gitlab.com##.prepend-top-10.append-bottom-20.banner-non-empty-state.banner-callout.js-autodevops-banner
 
@@ -169,6 +172,9 @@ pillarsofeternity.gamepedia.com##[href^="https://www.gamepedia.com/PRO"]
 ! Removes popover ad
 playoverwatch.com##.is-open.Navbar-promotion.Navbar-toast
 
+! Removes popover
+privacy.com##.ng-isolate-scope.ng-scope.dashboard-helpers-container
+
 ! Removes ad section
 quora.com##.question_main_col > .unified.PagedListFoo.UnifiedAnswerPagedList
 
@@ -219,6 +225,7 @@ speedof.me##.right_adpane
 ! Removes suggested content
 theguardian.com##.content-footer--pillar-news.content-footer
 theguardian.com##.js-secondary-column.content__secondary-column
+theguardian.com##.is-epic.block--content.block
 
 ! Removes cluttered sidebar
 thesun.co.uk###sidebar
