@@ -1,9 +1,9 @@
 ! Title: Krathalan's Annoyances
-! Updated November 22, 2020
+! Updated January 24, 2021
 ! Homepage: https://git.sr.ht/~krathalan/firefox-complement
 ! Direct link: https://git.sr.ht/~krathalan/firefox-complement/blob/master/uBlock_Filters/krathalans-annoyances.txt
 
-! Copyright (c) 2018-2019 krathalan
+! Copyright (c) 2018-2021 krathalan
 ! License: https://gnu.org/licenses/gpl-3.0.txt
 
 ! Fixes
@@ -179,18 +179,15 @@ privacy.com##.ng-isolate-scope.ng-scope.dashboard-helpers-container
 quora.com##.question_main_col > .unified.PagedListFoo.UnifiedAnswerPagedList
 
 ! Removes several "Remove ads" notices and increases space efficiency
+raider.io##.text-white > .slds-m-bottom--large
+raider.io##.slds-p-horizontal--small.slds-max-medium-size--1-of-1.slds-max-small-size--1-of-1.slds-size--4-of-12 > .slds-m-bottom--large
+raider.io##.rio-right-pane > div > .slds-text-align--center > .rio-zone
 raider.io##.rio-shadow--large.d-inline-block.slds-text-align--center
 raider.io##.fa-times.fa
-raider.io##.slds-text-heading--small.slds-p-around--small.cookie-footer--wrapper
-raider.io###reamazejs-container
-raider.io##.slds-text-heading--medium.slds-p-around--large.cookieFooter-module__wrapper___3iC-G
-raider.io##.rio-right-pane > div > .slds-text-align--center > div > .slds-clearfix
-raider.io##.sticky-inner-wrapper > .slds-text-align--center > div > .slds-clearfix
-raider.io##.slds-align--absolute-center.slds-p-around--medium.rio-hidden--small.slds-text-align--center
+raider.io##.rio-sidebar-section--nobg.rio-sidebar-section.sticky-outer-wrapper
 raider.io##.slds-p-bottom--x-large.rio-footer--bg > .slds-align--absolute-center.slds-p-around--medium.rio-hidden--small
-raider.io##.rio-right-pane
-raider.io##.text-white > .slds-m-bottom--large
-raider.io##.rio-main-content > div:nth-of-type(2)
+raider.io##.slds-align--absolute-center.slds-p-around--medium.rio-hidden--small.slds-text-align--center
+raider.io##.text-white.slds-text-heading--small.slds-text-align--center.slds-col
 
 ! Removes Facebook "advertisement" to like their page
 raider.io##.text-white > .slds-m-bottom--large
@@ -262,27 +259,9 @@ wow-petopia.com###adBannerRight
 wow-petopia.com###adBannerLeft
 
 ! Removes recent blue posts, recent news, coupons, class guides, featured guides, many ZAM elements, and the "Today in WoW" section. Makes Wowhead Usable Again™
-||wow.zamimg.com/images/logos/fanbyte/fanbyte-horiz-196x44.png$image
-||wow.zamimg.com/images/logos/fanbyte/fanbyte-vert-320x212.png$image
-||wow.zamimg.com/widgets/zul/logos/zam-2x.png$image
-wowhead.com##.footer-sites
-wowhead.com##.footer-zam
-wowhead.com##.header-nav-class-guides
 wowhead.com##.header-nav-features
-wowhead.com##.main-news-heading.heading-size-4.imitation-heading
 wowhead.com##.news-recent-content
-wowhead.com##.premium-promo-row
-wowhead.com##.zul-bar-has-fa.zul-bar-icon-spacing.zul-bar-user-item-get-premium
-wowhead.com##.zul-bar-has-fa.zul-bar-icon-spacing.zul-bar-user-item-upgrade
-wowhead.com##.type-coupon-codes.featured-content-block
-wowhead.com##.db-page-collection-tracker-cta
-wowhead.com##.element-highlight
-wowhead.com###cookie-settings
-wowhead.com###zul-bar-logo
-wowhead.com##.news-current-guides
 wowhead.com##.news-content-spotlight
-wowhead.com##.footer-fanbyte
-wowhead.com###main > .blocks
 
 # Remove ads
 xiaomifirmwareupdater.com##[href^="https://www.banggood.com/"]
