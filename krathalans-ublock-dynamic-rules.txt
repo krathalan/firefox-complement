@@ -1,10 +1,11 @@
 ! Krathalan's uBlock Origin dynamic rules
 ! Unfortunately with the deprecation of uMatrix this is the next best way
 ! to block third party scripts and frames (without using NoScript).
-! Updated December 11, 2020
+! Updated January 27, 2020
 ! Homepage: https://git.sr.ht/~krathalan/firefox-complement
 ! Direct link: https://git.sr.ht/~krathalan/firefox-complement/blob/master/krathalans-ublock-dynamic-rules.txt
 ! Copyright (c) 2018-2020 krathalan; License: https://gnu.org/licenses/gpl-3.0.txt
+no-csp-reports: * true
 no-large-media: behind-the-scene false
 * * 3p-frame block
 * * 3p-script block
@@ -12,9 +13,13 @@ abc7amarillo.com sinclairstoryline.com * noop
 akhilnarang.me cloudflare.com * noop
 alternativeto.net jquery.com * noop
 alternativeto.net jsdelivr.net * noop
+amazon.com amazon.map.fastly.net * noop
 amazon.com c.media-amazon.com * noop
 amazon.com e264.dsca.akamaiedge.net * noop
 amazon.com images-na.ssl-images-amazon.com * noop
+amazon.com media-amazon.com * noop
+amazon.com media.amazon.map.fastly.net * noop
+amazon.com ssl-images-amazon.com * noop
 andrewchristian.com cloudflare.com * noop
 androidcentral.com cloudflare.com * noop
 android.com gstatic.com * noop
@@ -36,6 +41,13 @@ battle.net akamaized.net * noop
 bbc.com bbc.co.uk * noop
 bbc.com bbci.co.uk * noop
 bbc.co.uk bbci.co.uk * noop
+behind-the-scene * 1p-script noop
+behind-the-scene * 3p-frame noop
+behind-the-scene * 3p noop
+behind-the-scene * 3p-script noop
+behind-the-scene * image noop
+behind-the-scene * inline-script noop
+behind-the-scene * * noop
 billtrack50.com ajax.googleapis.com * noop
 bleepingcomputer.com bleepstatic.com * noop
 blizzard.com akamaized.net * noop
@@ -118,7 +130,6 @@ nasa.gov cloudfront.net * noop
 newegg.com akamaiedge.net * noop
 newegg.com gstatic.com * noop
 newegg.com neweggimages.com * noop
-no-large-media: behind-the-scene false
 nytimes.com nytimes.map.fastly.net * noop
 omnirom.org unpkg.com * noop
 orcacard.com digicert.com * noop
@@ -150,9 +161,6 @@ shadowlands.wowhead.com zamimg.com * noop
 signal.org ajax.googleapis.com * noop
 signal.org bootstrapcdn.com * noop
 signal.org jquery.com * noop
-smile.amazon.com media-amazon.com * noop
-smile.amazon.com media.amazon.map.fastly.net * noop
-smile.amazon.com ssl-images-amazon.com * noop
 sourceforge.net fsdn.com * noop
 speedof.me highcharts.com * noop
 speedof.me jquery.com * noop
