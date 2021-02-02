@@ -1,7 +1,7 @@
 ! Krathalan's uBlock Origin dynamic rules
 ! Unfortunately with the deprecation of uMatrix this is the next best way
 ! to block third party scripts and frames (without using NoScript).
-! Updated January 27, 2020
+! Updated February 2, 2020
 ! Homepage: https://git.sr.ht/~krathalan/firefox-complement
 ! Direct link: https://git.sr.ht/~krathalan/firefox-complement/blob/master/krathalans-ublock-dynamic-rules.txt
 ! Copyright (c) 2018-2020 krathalan; License: https://gnu.org/licenses/gpl-3.0.txt
@@ -33,6 +33,7 @@ archlinuxarm.org ajax.googleapis.com * noop
 ark.intel.com akamaiedge.net * noop
 arstechnica.com arstechnica.net * noop
 arstechnica.com cachefly.net * noop
+asus.com psicdn.net * noop
 ballotpedia.org ajax.googleapis.com * noop
 ballotpedia.org billtrack50.com * noop
 barnesandnoble.com js-bn.com * noop
@@ -74,6 +75,8 @@ community.letsencrypt.org discourse-cdn.com * noop
 community.letsencrypt.org kxcdn.com * noop
 dailymotion.com ajax.googleapis.com * noop
 dailymotion.com dmcdn.net * noop
+data.syncthing.net google.com * noop
+data.syncthing.net gstatic.com * noop
 decentraleyes.org ajax.googleapis.com * noop
 discourse.pi-hole.net b-cdn.net * noop
 ebay.com ebay.map.fastly.net * noop
@@ -98,6 +101,7 @@ icy-veins.com highcharts.com * noop
 icy-veins.com wowdb.com * noop
 ifixit.com d1ulmmr4d4i8j4.cloudfront.net * noop
 ign.com ignimgs.com * noop
+imdb.com amazon.map.fastly.net * noop
 imdb.com db187550c7dkf.cloudfront.net * noop
 imdb.com media-amazon.com * noop
 imdb.com media-imdb.com * noop
@@ -105,6 +109,7 @@ imdb.com ssl-images-amazon.com * noop
 imgur.com ipv4.imgur.map.fastly.net * noop
 indiegogo.com iggcdn.com * noop
 informationisbeautiful.net amazonaws.com * noop
+kickstarter.com fastly.net * noop
 kingcounty.gov ajax.googleapis.com * noop
 kingcounty.gov bootstrapcdn.com * noop
 komonews.com sinclairstoryline.com * noop
@@ -139,6 +144,8 @@ patreon.com cloudflare.com * noop
 pcgamer.com futurecdn.net * noop
 pcpartpicker.com cdna.pcpartpicker.com * noop
 pcpartpicker.com cloudfront.net * noop
+pcrecycle.net pcrecycle.com * noop
+pcworld.com idg.map.fastly.net * noop
 phoronix.com openbenchmarking.org * noop
 playoverwatch.com d3hmvhl7ru3t12.cloudfront.net * noop
 politico.com www.politico.com * noop
@@ -182,6 +189,7 @@ thesaurus.com dictionary.map.fastly.net * noop
 theverge.com vox-cdn.com * noop
 theverge.com voxmedia.com * noop
 tomsguide.com futurecdn.net * noop
+tools.usps.com upsiloncdn.net * noop
 tumblr.com ajax.googleapis.com * noop
 tuxphones.com cloudflare.com * noop
 tuxphones.com jquery.com * noop
@@ -189,7 +197,9 @@ twitch.tv twitchcdn.net * noop
 twofactorauth.org cloudflare.com * noop
 twofactorauth.org jquery.com * noop
 ups.com akamaiedge.net * noop
+us.battle.net akamai.net * noop
 userbenchmark.com ajax.googleapis.com * noop
+us.shop.battle.net akamai.net * noop
 vimeo.com vimeocdn.com * noop
 voidlinux.org github.com * noop
 warcraftlogs.com cloudflare.com * noop
