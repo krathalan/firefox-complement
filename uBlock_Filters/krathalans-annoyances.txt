@@ -1,5 +1,5 @@
 ! Title: Krathalan's Annoyances
-! Updated January 24, 2021
+! Updated February 7, 2021
 ! Homepage: https://git.sr.ht/~krathalan/firefox-complement
 ! Direct link: https://git.sr.ht/~krathalan/firefox-complement/blob/master/uBlock_Filters/krathalans-annoyances.txt
 
@@ -179,18 +179,15 @@ privacy.com##.ng-isolate-scope.ng-scope.dashboard-helpers-container
 quora.com##.question_main_col > .unified.PagedListFoo.UnifiedAnswerPagedList
 
 ! Removes several "Remove ads" notices and increases space efficiency
-raider.io##.text-white > .slds-m-bottom--large
-raider.io##.slds-p-horizontal--small.slds-max-medium-size--1-of-1.slds-max-small-size--1-of-1.slds-size--4-of-12 > .slds-m-bottom--large
-raider.io##.rio-right-pane > div > .slds-text-align--center > .rio-zone
-raider.io##.rio-shadow--large.d-inline-block.slds-text-align--center
-raider.io##.fa-times.fa
-raider.io##.rio-sidebar-section--nobg.rio-sidebar-section.sticky-outer-wrapper
-raider.io##.slds-p-bottom--x-large.rio-footer--bg > .slds-align--absolute-center.slds-p-around--medium.rio-hidden--small
 raider.io##.slds-align--absolute-center.slds-p-around--medium.rio-hidden--small.slds-text-align--center
 raider.io##.text-white.slds-text-heading--small.slds-text-align--center.slds-col
-
-! Removes Facebook "advertisement" to like their page
 raider.io##.text-white > .slds-m-bottom--large
+raider.io##.rio-shadow--large.d-inline-block.slds-text-align--center
+raider.io##.fa-times.fa
+raider.io##.slds-p-horizontal--small.slds-max-medium-size--1-of-1.slds-max-small-size--1-of-1.slds-size--4-of-12 > .slds-m-bottom--large
+raider.io##.rio-right-pane > div > .slds-text-align--center
+raider.io##.sticky-inner-wrapper > .slds-text-align--center
+raider.io##.slds-p-bottom--x-large.rio-footer--bg > .slds-align--absolute-center.slds-p-around--medium.rio-hidden--small
 
 ! Removes the onboarding message for the new Reddit UI
 old.reddit.com##.onboardingbar-body
@@ -260,6 +257,7 @@ wow-petopia.com###adBannerLeft
 
 ! Removes recent blue posts, recent news, coupons, class guides, featured guides, many ZAM elements, and the "Today in WoW" section. Makes Wowhead Usable Again™
 wowhead.com##.header-nav-features
+wowhead.com##.news-recent
 wowhead.com##.news-recent-content
 wowhead.com##.news-content-spotlight
 
