@@ -664,5 +664,26 @@
     },
     "title": "Block%20USPS%20Tracking%20Parameters",
     "tag": "filter-usps-param"
+  },
+  {
+    "uuid": "cb1431a9-835f-46e5-8b46-6fa41be79599",
+    "pattern": {
+      "scheme": "*",
+      "host": [
+        "*.twitter.com"
+      ],
+      "path": [
+        "*"
+      ]
+    },
+    "types": [
+      "main_frame"
+    ],
+    "action": "redirect",
+    "active": true,
+    "title": "Redirect%20twitter%20to%20nitter",
+    "description": "Redirect%20rule%20for%20switching%20twitter%20links%20to%20nitter",
+    "tag": "twitter-to-nitter",
+    "redirectUrl": "https://nitter.krathalan.net{pathname}"
   }
 ]
