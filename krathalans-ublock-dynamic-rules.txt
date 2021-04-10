@@ -11,6 +11,8 @@ no-large-media: behind-the-scene false
 * * 3p-script block
 9to5linux.com ajax.cloudflare.com * noop
 abc7amarillo.com sinclairstoryline.com * noop
+account.blizzard.com akamai.net * noop
+account.blizzard.com akamaized.net * noop
 akhilnarang.me cloudflare.com * noop
 alternativeto.net jquery.com * noop
 alternativeto.net jsdelivr.net * noop
@@ -72,9 +74,15 @@ bugs.chromium.org monorail-prod-default-v091-dot-monorail-prod.appspot.com * noo
 cbsnews.com cbsistatic.com * noop
 chromereleases.googleblog.com ajax.googleapis.com * noop
 color.firefox.com color.r53-2.services.mozilla.com * noop
+color.firefox.com mozilla.com * noop
 community.arduboy.com discourse-cdn.com * noop
+community.cloudflare.com community.cloudflare.com * noop
+community.cloudflare.com discourse-cdn.com * noop
+community.cloudflare.com kxcdn.com * noop
 community.letsencrypt.org discourse-cdn.com * noop
 community.letsencrypt.org kxcdn.com * noop
+computerworld.com idg.map.fastly.net * noop
+coolors.co cloudflare.com * noop
 dailymotion.com ajax.googleapis.com * noop
 dailymotion.com dmcdn.net * noop
 data.syncthing.net google.com * noop
@@ -97,6 +105,7 @@ gitlab.com gitlab-static.net * noop
 gizmodo.com kinja-static.com * noop
 gpuboss.com ajax.googleapis.com * noop
 groupon.com grouponcdn.com * noop
+guides.github.com github.github.io * noop
 home-assistant.io cloudflare.com * noop
 home-assistant.io hwcdn.net * noop
 home-assistant.io jquery.com * noop
@@ -176,6 +185,7 @@ signal.org jquery.com * noop
 sourceforge.net fsdn.com * noop
 speedof.me highcharts.com * noop
 speedof.me jquery.com * noop
+ssl-config.mozilla.org mozilla.github.io * noop
 steamcommunity.com akamaihd.net * noop
 steampowered.com akamaihd.net * noop
 stedolan.github.io ajax.googleapis.com * noop
