@@ -1,7 +1,7 @@
 ! Krathalan's uBlock Origin dynamic rules
 ! Unfortunately with the deprecation of uMatrix this is the next best way
 ! to block third party scripts and frames (without using NoScript).
-! Updated March 31, 2020
+! Updated April 10, 2020
 ! Homepage: https://git.sr.ht/~krathalan/firefox-complement
 ! Direct link: https://git.sr.ht/~krathalan/firefox-complement/blob/master/krathalans-ublock-dynamic-rules.txt
 ! Copyright (c) 2018-2020 krathalan; License: https://gnu.org/licenses/gpl-3.0.txt
@@ -97,6 +97,9 @@ gitlab.com gitlab-static.net * noop
 gizmodo.com kinja-static.com * noop
 gpuboss.com ajax.googleapis.com * noop
 groupon.com grouponcdn.com * noop
+home-assistant.io cloudflare.com * noop
+home-assistant.io hwcdn.net * noop
+home-assistant.io jquery.com * noop
 icy-veins.com bloodmallet.com * noop
 icy-veins.com cursecdn.com * noop
 icy-veins.com highcharts.com * noop
@@ -205,7 +208,7 @@ userbenchmark.com ajax.googleapis.com * noop
 us.shop.battle.net akamai.net * noop
 vimeo.com vimeocdn.com * noop
 voidlinux.org github.com * noop
-w3schools.com cs837.wac.edgecastcdn.net * noop
+w3schools.com edgecastcdn.net * noop
 warcraftlogs.com cloudflare.com * noop
 warcraftlogs.com datatables.net * noop
 warcraftlogs.com dmszsuqyoe6y6.cloudfront.net * noop
