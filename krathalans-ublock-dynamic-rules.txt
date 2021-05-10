@@ -2,8 +2,8 @@
 ! Unfortunately with the deprecation of uMatrix this is the next best way
 ! to block third party scripts and frames (without using NoScript).
 ! Updated April 10, 2020
-! Homepage: https://git.sr.ht/~krathalan/firefox-complement
-! Direct link: https://git.sr.ht/~krathalan/firefox-complement/blob/master/krathalans-ublock-dynamic-rules.txt
+! Homepage: https://github.com/krathalan/firefox-complement
+! Direct link: https://raw.githubusercontent.com/krathalan/firefox-complement/master/krathalans-ublock-dynamic-rules.txt
 ! Copyright (c) 2018-2020 krathalan; License: https://gnu.org/licenses/gpl-3.0.txt
 no-csp-reports: * true
 no-large-media: behind-the-scene false

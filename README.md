@@ -15,7 +15,7 @@ Web Annoyances Ultralist is a great filter list: https://raw.githubusercontent.c
 
 My (krathalan's) Annoyances list seeks to remove ads, clutter, popovers, and popunders. The list also seeks to remove dark patterns that interrupt content or keep you on a website, like "content carousels", "most popular articles", "suggested content", and "recommended stories".
 
-Krathalan's Annoyances list: https://git.sr.ht/~krathalan/firefox-complement/blob/master/uBlock_Filters/krathalans-annoyances.txt
+Krathalan's Annoyances list: https://raw.githubusercontent.com/krathalan/firefox-complement/master/uBlock_Filters/krathalans-annoyances.txt
 
 ### Third party fonts
 Fanboy's Anti-thirdparty Fonts list: https://fanboy.co.nz/fanboy-antifonts.txt

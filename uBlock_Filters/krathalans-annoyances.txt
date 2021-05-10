@@ -1,7 +1,7 @@
 ! Title: Krathalan's Annoyances
 ! Updated February 7, 2021
-! Homepage: https://git.sr.ht/~krathalan/firefox-complement
-! Direct link: https://git.sr.ht/~krathalan/firefox-complement/blob/master/uBlock_Filters/krathalans-annoyances.txt
+! Homepage: https://github.com/krathalan/firefox-complement
+! Direct link: https://raw.githubusercontent.com/krathalan/firefox-complement/master/uBlock_Filters/krathalans-annoyances.txt
 
 ! Copyright (c) 2018-2021 krathalan
 ! License: https://gnu.org/licenses/gpl-3.0.txt
