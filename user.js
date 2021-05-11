@@ -2,7 +2,7 @@
  *  Updated June 27, 2020
  *  License: GPLv3
  *  Copyright (c) 2018-2020 krathalan
- *  Homepage: https://git.sr.ht/~krathalan/firefox-complement
+ *  Homepage: https://github.com/krathalan/firefox-complement
  *
  *  This user.js file contains personal or performance preferences and some
  *  common overrides for Ghack's user.js. Append this file to the end of
