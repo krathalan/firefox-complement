@@ -91,11 +91,13 @@ decentraleyes.org ajax.googleapis.com * noop
 discourse.pi-hole.net b-cdn.net * noop
 ebay.com ebay.map.fastly.net * noop
 ebay.com ebaystatic.com * noop
+en.wikipedia.org wikimedia.org * noop
 exercism.io cloudflare.com * noop
 fandango.com ajax.googleapis.com * noop
 fast.com * * noop
 flickr.com staticflickr.com * noop
 flickr.com yimg.com * noop
+food.com akamaiedge.net * noop
 forbes.com forbesimg.com * noop
 forums.developer.nvidia.com discourse-cdn.com * noop
 forums.developer.nvidia.com kxcdn.com * noop
@@ -120,7 +122,8 @@ imdb.com db187550c7dkf.cloudfront.net * noop
 imdb.com media-amazon.com * noop
 imdb.com media-imdb.com * noop
 imdb.com ssl-images-amazon.com * noop
-imgur.com ipv4.imgur.map.fastly.net * noop
+imgur.com imgur.map.fastly.net * noop
+imgur.com media-lab.ai * noop
 indiegogo.com iggcdn.com * noop
 informationisbeautiful.net amazonaws.com * noop
 kickstarter.com fastly.net * noop
@@ -178,6 +181,8 @@ reuters.com reutersmedia.net * noop
 reuters.com thomsonreuters.com * noop
 rust-lang.github.io cloudflare.com * noop
 samsung.com akamaiedge.net * noop
+sephora.com akamaiedge.net * noop
+sephora.com akamai.net * noop
 shadowlands.wowhead.com zamimg.com * noop
 signal.org ajax.googleapis.com * noop
 signal.org bootstrapcdn.com * noop
