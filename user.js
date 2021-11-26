@@ -63,6 +63,9 @@
 // ----- Performance preferences -----
 // -----------------------------------
 
+// Force hardware Webrender (instead of software Webrender)
+// user_pref("gfx.webrender.all", true);
+
 // Force hardware acceleration for increased performance
 // user_pref("layers.acceleration.force-enabled", true);
 
