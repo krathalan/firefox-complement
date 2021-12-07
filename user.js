@@ -55,6 +55,7 @@
 // user_pref("privacy.clearOnShutdown.cookies", false);
 // user_pref("privacy.clearOnShutdown.history", false); // Browsing & Download History
 // user_pref("privacy.clearOnShutdown.sessions", false); // Active Logins
+// user_pref("network.cookie.lifetimePolicy", 0); // Cookies and site data
 
 // Do NOT dynamically resize the "inner window"
 // user_pref("privacy.resistFingerprinting.letterboxing", false); // [HIDDEN PREF]
