@@ -1,7 +1,7 @@
 ! Krathalan's uBlock Origin dynamic rules
 ! Unfortunately with the deprecation of uMatrix this is the next best way
 ! to block third party scripts and frames (without using NoScript).
-! Updated April 10, 2020
+! Updated June 4, 2022
 ! Homepage: https://github.com/krathalan/firefox-complement
 ! Direct link: https://raw.githubusercontent.com/krathalan/firefox-complement/master/krathalans-ublock-dynamic-rules.txt
 ! Copyright (c) 2018-2020 krathalan; License: https://gnu.org/licenses/gpl-3.0.txt
@@ -11,6 +11,7 @@ no-large-media: behind-the-scene false
 * * 3p-script block
 9to5linux.com ajax.cloudflare.com * noop
 abc7amarillo.com sinclairstoryline.com * noop
+account.battle.net akamai.net * noop
 account.blizzard.com akamai.net * noop
 account.blizzard.com akamaized.net * noop
 akhilnarang.me cloudflare.com * noop
@@ -36,6 +37,7 @@ archlinuxarm.org ajax.googleapis.com * noop
 ark.intel.com akamaiedge.net * noop
 arstechnica.com arstechnica.net * noop
 arstechnica.com cachefly.net * noop
+ask.usda.gov siteforce.com * noop
 asus.com psicdn.net * noop
 ballotpedia.org ajax.googleapis.com * noop
 ballotpedia.org billtrack50.com * noop
@@ -105,6 +107,7 @@ gamesradar.com futurecdn.net * noop
 github.com githubassets.com * noop
 gitlab.com gitlab-static.net * noop
 gizmodo.com kinja-static.com * noop
+google.com gstatic.com * noop
 gpuboss.com ajax.googleapis.com * noop
 groupon.com grouponcdn.com * noop
 guides.github.com github.github.io * noop
@@ -124,6 +127,7 @@ imdb.com media-imdb.com * noop
 imdb.com ssl-images-amazon.com * noop
 imgur.com imgur.map.fastly.net * noop
 imgur.com media-lab.ai * noop
+incidecoder.com storage.googleapis.com * noop
 indiegogo.com iggcdn.com * noop
 informationisbeautiful.net amazonaws.com * noop
 kickstarter.com fastly.net * noop
@@ -144,6 +148,10 @@ linuxconfig.org cloudflare.com * noop
 lmgtfy.com ajax.googleapis.com * noop
 login.linode.com cloudflare.net * noop
 login.linode.com hcaptcha.com * noop
+login.live.com msauth.net * noop
+login.live.com t-msedge.net * noop
+login.microsoftonline.com msftauth.net * noop
+login.microsoftonline.com omegacdn.net * noop
 marketplace.visualstudio.com vsassets.io * noop
 microsoft.com akamaiedge.net * noop
 minecraft.net braintreegateway.com * noop
@@ -155,6 +163,11 @@ newegg.com neweggimages.com * noop
 nytimes.com nytimes.map.fastly.net * noop
 omnirom.org unpkg.com * noop
 orcacard.com digicert.com * noop
+outlook.office365.com akamaiedge.net * noop
+outlook.office365.com akamaihd.net * noop
+outlook.office365.com office.net * noop
+outlook.office.com akamaiedge.net * noop
+outlook.office.com office.net * noop
 overwatchleague.com d2y4mhrku00tr3.cloudfront.net * noop
 overwatchleague.com majorleaguegaming.com * noop
 patreon.com cloudflare.com * noop
@@ -187,6 +200,7 @@ shadowlands.wowhead.com zamimg.com * noop
 signal.org ajax.googleapis.com * noop
 signal.org bootstrapcdn.com * noop
 signal.org jquery.com * noop
+smile.amazon.com akamaiedge.net * noop
 sourceforge.net fsdn.com * noop
 speedof.me highcharts.com * noop
 speedof.me jquery.com * noop
