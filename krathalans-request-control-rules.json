@@ -478,7 +478,9 @@
         "asc_contentid",
         "asc_contenttype",
         "ascsubtag",
+        "content-id",
         "creativeASIN",
+        "crid",
         "cv_ct_*",
         "dchild",
         "ie",
@@ -489,8 +491,10 @@
         "pf_rd_*",
         "psc",
         "qid",
+        "ref",
         "ref_",
         "s",
+        "sprefix",
         "sr",
         "tag"
       ]
